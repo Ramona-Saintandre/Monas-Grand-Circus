@@ -15,6 +15,7 @@ function mergeSort(arrayToSort) {
     // Get right side of the array
     const right = arrayToSort.slice(indexOfMiddle) // items on the right side
 
+    console.log(left, right);
     // Compare each of the arrays and return the merged result
     // Merge the left and the right recursively
     return merge(

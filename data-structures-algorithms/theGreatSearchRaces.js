@@ -3,10 +3,12 @@
  * 
  * Today, it's binarySearch vs good ol' fashioned linear search
  */
-const length = 4000;
+const length = 4000000;
+
 let arr = Array.from({length: length}, () => Math.floor(Math.random() * length));
 let searchFor = Math.floor(Math.random() * length);
 arr = arr.sort( (b,a) => {return b-a } );
+
 /*
 Worst-case performance · O(log n) · Best-case performance · O(1) · Average performance · O(log n) · 
 */
@@ -38,11 +40,11 @@ const linearSearch = (array, toFind) => {
     return -1;
 };
 
-  console.time('binarySearch')
-  var index = binarySearchRecursive(arr, searchFor, 0, arr.length);
-  console.timeEnd('binarySearch');
-  
-  console.time('linearSearch')
-  var index = linearSearch(arr, searchFor);
-  console.timeEnd('linearSearch');
-  console.log(index);
+console.time('binarySearch')
+var index = binarySearchRecursive(arr, searchFor, 0, arr.length);
+console.timeEnd('binarySearch');
+
+console.time('linearSearch')
+var index = linearSearch(arr, searchFor);
+console.timeEnd('linearSearch');
+console.log(index);

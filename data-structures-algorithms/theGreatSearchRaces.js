@@ -3,8 +3,8 @@
  * 
  * Today, it's binarySearch vs good ol' fashioned linear search
  */
-const length = 40000000;
-let arr = Array.from({length: length}, x => x);
+const length = 4000;
+let arr = Array.from({length: length}, () => Math.floor(Math.random() * length));
 let searchFor = Math.floor(Math.random() * length);
 arr = arr.sort( (b,a) => {return b-a } );
 /*

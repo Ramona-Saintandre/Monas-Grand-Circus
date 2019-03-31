@@ -1,4 +1,4 @@
-Some examples from the DS & A lecture
+## Some examples from the DS & A lecture
 
 Some suggestions for going deeper (no requirement at all, just in case you're curious):
 - Check out the coinCounter code. See if you can extend the app so that it take in an input of how much money you have access to. For example, if I need $1.50 in change, but I only have 1 quarter, what is the optimal solution for me?

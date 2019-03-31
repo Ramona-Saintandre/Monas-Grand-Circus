@@ -1,4 +1,4 @@
-# Schedule 
+# AngularJS Part 1 Schedule 
 ## Getting started (0:00-0:05)
     - You are now all developers" pep talk 
         - Find ways you can solve every day problems with code

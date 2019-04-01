@@ -1,0 +1,89 @@
+.hero {
+    background-color: green;
+}
+
+.villian {
+    background-color: red;
+}
+
+.both {
+    background-image: linear-gradient(-90deg, red, green);
+}
+
+#heroes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+#heroes > section {
+    padding: 15px;
+    width: 250px;
+    height: 250px;
+    border-radius: 3px;
+    color: white;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 23px;
+}
+
+progress {
+    background-color: red;
+}
+
+progress:not([value]) {
+   background-color: red;
+ }
+
+progress[value]::-webkit-progress-value {
+    background-color: green;
+    border-radius: 2px; 
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+    -webkit-animation: animate-stripes 5s linear infinite;
+    animation: animate-stripes 5s linear infinite;
+  }
+
+  @-webkit-keyframes animate-stripes {
+    100% { background-position: -100px 0px; }
+ }
+ 
+ @keyframes animate-stripes {
+    100% { background-position: -100px 0px; }
+ }
+
+#heroes > section > h2,
+#heroes > section > h3 {
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+#heroes > section > button {
+    -webkit-appearance: none;
+    padding: 5px 16px;
+    height: 45px;
+    font-size: 16px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: blue;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+button.delete {
+    background-color: pink;
+    color: 
+}
+
+button.add {
+    background-color: blue;
+}
+

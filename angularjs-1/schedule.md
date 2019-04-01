@@ -52,8 +52,8 @@
     - Expressions
     - Math
     - Logical Ops
-    - Filters 
-        - Example of uppercase filter
+    <!-- - Filters 
+        - Example of uppercase filter -->
 
 ## Example Time! (0:40-0:45)
     - Work as a whole group on initial part 
@@ -88,7 +88,7 @@
 
 ## Intro to Lab (1:50-1:55)
 
-## Quick Break (1:55-2:00)
+## Quick Break/Transition (1:55-2:00)
 
 ## Get Cranking on Lab (2:00-∞)
 

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="App">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> Build your Avengers! </title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <section ng-controller="SuperHeroCtrl">
+    <section>
+    {{daysUntilAvengers()}} Days until <strong>Avengers:Endgame</strong>
+    </section>
+    <section id="add-custom">
+        <form ng-submit="addPerson(person);">
+            <p>
+                <label>
+                    Superhero Name
+                    <input type="text" ng-model="person.name">
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Hero or Villian
+                    <select ng-init="person.type = 'hero'" ng-model="person.type">
+                        <option value="hero"> Hero </option>
+                        <option value="villian"> Villian </option>
+                        <option value="both"> Both </option>
+                    </select>
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Power
+                    <input type="number" ng-model="person.power">
+                </label>            
+            </p>
+        <button>Add Person</button>
+        </form>
+    </section>
+
+    <!-- This is really cool-->
+    <section>
+        <h2>Filter the list</h2>
+        <h3> Filter by name, type, or power. </h3>
+        <input type="text" ng-model="filterName">
+    </section>
+
+    <h2> Add or Remove Heroes and Villians from Your Teams </h2>
+    <h3> If a person can be a hero or villian, he or she will join the <span ng-bind="getTeamWithLeastPower()"></span></h3>
+    
+    <main id="heroes">
+        <section ng-class="{ 'hero': person.type === 'hero', 'villian': person.type === 'villian', 'both': person.type === 'both' }" ng-repeat="person in people | filter: filterName">
+            <h2> {{ person.name }} ({{person.power}})</h2>
+            <h3>Type: {{ person.type }}</h3>
+            <button ng-if="isOnTeam(person)" ng-click="removeHero(person);">Remove From Team</button>
+            <button ng-if="!isOnTeam(person)" ng-click="addHero(person);">Add To Team</button>
+        </section>  
+    </main>
+
+    <section id="team">
+       <p> Score: <progress value="{{getTotalByType('heroes')}}" max="{{getGrandTotal()}}">{{ (getGrandTotal() - getTotalByType('villians')) / getGrandTotal() * 100 | number:0 }}%</progress> </p>
+        <p> Heroes are <strong>{{ getTeamWithLeastPower() === 'heroes' ? 'losing :(' : 'winning!' }}</strong> </p>
+
+        <div class="team heroes">
+            <h2> Heroes </h2>
+            <h3> Total: <span class="total" ng-bind="getTotalByType('heroes')"></span></h3>
+            <ul>
+                <li ng-repeat="hero in heroes"> {{hero.name}} ({{hero.power}}) </li>
+            </ul>
+        </div>  
+        
+        <div class="team villians">
+            <h2> Villians </h2>
+            <h3> Total: <span class="total" ng-bind="getTotalByType('villians')"></span></h3>
+            <progres></progres>
+
+            <ul>
+                <li ng-repeat="villian in villians"> {{villian.name}} ({{villian.power}})</li>
+            </ul>
+        </div>  
+    </section>
+  </section>
+
+  <script src="https://code.angularjs.org/1.7.8/angular.js"></script>
+  <script src="app.module.js"></script>
+  <script src="app.controller.js"></script>
+</body>
+</html>

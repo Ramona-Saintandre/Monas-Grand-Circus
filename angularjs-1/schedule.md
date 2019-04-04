@@ -13,7 +13,7 @@
     - Browser -> Actions -> Data (and back)
     - Demostrate using basic form submission (Code Demo + Whiteboard)*
 - SPA 
-    - Everthing's loaded once (dynamic)
+    - Everything's loaded once (dynamic)
     - [SPA vs traditional](https://medium.com/@NeotericEU/single-page-application-vs-multiple-page-application-2591588efe58)
     - Easier to make hybrid apps (Ionic)
 
@@ -72,8 +72,8 @@
     - Lightweight
     - Don't change the DOM
         - jQuery is passive, AngularJS is active
-    - "Build Your Avengers Team" demo
-        - For Fake Extra Credit, make a PR
+    - Deeper look at ng-repeat
+
 
 ## Data Binding (1:35-1:45)
     - Automatically updates information in view
@@ -81,6 +81,8 @@
     - THIS IS WHERE ANGULARJS IS SO BADASS
         - Google Search Bar
         - Google Maps input
+    - "Build Your Avengers Team" demo
+        - For Fake Extra Credit, make a PR
 
 ## Scope (1:45-1:50)
     - Root scope

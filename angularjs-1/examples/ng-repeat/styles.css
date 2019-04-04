@@ -1,0 +1,10 @@
+/*
+ MAKE IT PRETTY
+*/
+.flex {
+    display: flex
+}
+.flex-inner {
+    margin: 30px;
+    width: 50px;
+}

@@ -28,7 +28,7 @@ function component() {
             <div>
             <label>
                 Click inside of the input to expand it
-                <p>
+
                 <input expand-on-focus count="count" />
                 </p>
                 

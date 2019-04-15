@@ -105,7 +105,7 @@ function SuperHeroCtrl($scope) {
     return total;
   }
 
-  $scope.addPerson = (newHero) => {
+  $scope.addPerson = (newHero) => {    
     $scope.people.push(angular.copy(newHero));
   };
 
@@ -142,4 +142,4 @@ function SuperHeroCtrl($scope) {
 }
 angular
   .module("App")
-  .controller("SuperHeroCtrl", SuperHeroCtrl);
+  .controller("SuperHeroCtrl", ['$http',SuperHeroCtrl]);

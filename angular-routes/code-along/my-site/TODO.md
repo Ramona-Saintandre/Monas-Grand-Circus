@@ -1,13 +1,13 @@
 ## Personal Site Code Along
-Create three components, home, about-me, and resume, and portfolio each that display their respective numbers
+1. Create three components, home, about-me, and resume, and portfolio each that display their respective numbers
 
-Add a Nav Header that links to each component
+2. Add a Nav Header that links to each component
 
-Add angular CDN to index.html `<script src="https://code.angularjs.org/1.7.8/angular-route.js"></script>`
+3. Add angular CDN to index.html `<script src="https://code.angularjs.org/1.7.8/angular-route.js"></script>`
 
-Create and link to app.config.js
+4. Create and link to app.config.js
 
-Add $routeProvider to config
+5. Add $routeProvider to config
 ```
 "use strict";
 angular
@@ -23,6 +23,6 @@ angular
       })
 ```
 
-Create routes for each component in the config file
+6. Create routes for each component in the config file
 
-Add ng-view directive to html element in index.html
+7. Add ng-view directive to html element in index.html

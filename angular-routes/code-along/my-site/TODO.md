@@ -1,9 +1,11 @@
 ## Personal Site Code Along
-1. Create three components, home, about-me, and resume, and portfolio each that display their respective numbers
+1. Create three components, home, about-me, and resume, and portfolio each that display their respective info
 
 2. Add a Nav Header that links to each component
 
 3. Add angular CDN to index.html `<script src="https://code.angularjs.org/1.7.8/angular-route.js"></script>`
+
+3 1/2. Add the ngRoute dependency to app.module.js
 
 4. Create and link to app.config.js
 

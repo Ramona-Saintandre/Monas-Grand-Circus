@@ -1,15 +1,15 @@
 function component() {
-    function componentController($scope){
+    function componentController(){
         var vm = this;
         
-        $scope.count = 0;
+        vm.count = 0;
 
         vm.goUp = () => {
-            $scope.count += 10;
+            vm.count++;
         }
 
         vm.goDown = () => {
-            $scope.count -= 10;
+            vm.count--;
         }
     }
 
@@ -20,24 +20,14 @@ function component() {
             <div>
                 <button ng-click="$ctrl.goUp()">Up</button>
             </div>
-            <div>{{count}}</div>
+            <div>{{$ctrl.count}}</div>
             <div>
                 <button ng-click="$ctrl.goDown()">Down</button>
             </div>
-
-            <div>
-            <label>
-                Click inside of the input to expand it
-
-                <input expand-on-focus count="count" />
-                </p>
-                
-            </label>
-        </div>
         `
     }
 }
 
 angular
-.module ('InputExample')
+.module ('App')
 .component ('upDownCounter', component());

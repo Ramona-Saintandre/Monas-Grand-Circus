@@ -1,9 +1,9 @@
 function ExpandOnFocus() {
     return {
         restrict: "A",
-        scope: {
-            count: '='
-        },
+        // scope: {
+        //     count: '='
+        // },
         link: function($scope, $element, $attrs) {
             let height = 50;
 

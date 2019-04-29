@@ -1,16 +1,24 @@
 "use strict";
-function MyCtrl($scope) {  
-  $scope.listItems = [
-    'List Item 1',
-    'List Item 2',
-    'List Item 3'
-  ];
+function FamilyCtl() {
+  const controller = this;
 
-  $scope.inputItems = [
-    { name: 'input1', label: 'Input 1' },
-    { name: 'input2', label: 'Input 2' }
+  controller.fam = [{
+      name: 'BJ',
+      relation: 'me',
+      age: 23
+    },
+    {
+      name: 'Rachel',
+      relation: 'wife',
+      age: 26
+    },
+    {
+      name: 'Sade',
+      relation: 'pup',
+      age: 2
+    }
   ];
 }
 angular
   .module("App")
-  .controller("MyCtrl", MyCtrl);
+  .controller("FamilyCtl", FamilyCtl);

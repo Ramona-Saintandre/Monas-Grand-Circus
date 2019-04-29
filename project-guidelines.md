@@ -5,7 +5,10 @@
     - Create branch for feature
     - Try to work on separate files
     - Commit often, pull every day
-    - Make pull requests
+        - Name your commits well
+    - Make pull requests when tasks are complete
+        - Add testing steps so code reviewer can make sure it works right
+        - PRs are good places to have conversation, add suggestions.
 2. Kanban boards (trello or whiteboard)
     - Columns for:
         - Wishlist

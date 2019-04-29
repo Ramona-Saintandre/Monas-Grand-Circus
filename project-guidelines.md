@@ -21,5 +21,6 @@
         - This requires relying on communicating with your teammates to know in what format to expect the data (string?, object?, array?, etc).
     - They don't have to be perfect--just a starting place. You can always add more tasks l8r.
 4. Work on skeleton together, to reduce merge conflicts
+    - Good place to decide on naming conventions.
 5. Pick up tasks as you complete others.
     - It's great to focus on the ones you feel strong at and understand well, but also 

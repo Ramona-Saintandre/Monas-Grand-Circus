@@ -14,6 +14,7 @@
         - Wishlist
         - Todo
         - In Progress
+        - Blocked
         - Testing (create pull request, reviewer pulls down branch) 
         - Done (merged to master)
 3. Write out tasks for everything

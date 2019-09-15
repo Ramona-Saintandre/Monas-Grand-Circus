@@ -12,7 +12,7 @@ Then we are needing to create a [Git Repo](https://github.com/Ramona-Saintandre)
 
 # Project Requirements
 
-[ ]
+- []
 
 
 

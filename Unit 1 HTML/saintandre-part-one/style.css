@@ -1,0 +1,16 @@
+/* .body{
+    background-image: url('./images/bulldog.jpg'); */
+}
+#main-container {
+    display: flex;
+    background-color: rgb(141, 141, 241);
+    background-image: url('./images/bulldog.jpg');
+}
+.main-nav{
+    display: flex;
+    background-color: rgb(56, 56, 216);
+}
+.main-content{
+    display:flex;
+    background-color: rgb(134, 212, 134);
+}

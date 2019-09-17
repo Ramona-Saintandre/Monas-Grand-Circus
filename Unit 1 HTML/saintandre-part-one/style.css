@@ -1,16 +1,28 @@
-/* .body{
-    background-image: url('./images/bulldog.jpg'); */
-}
-#main-container {
-    display: flex;
-    background-color: rgb(141, 141, 241);
+body,html{
+    width:100%; 
+    padding: 0;
+    margin:0;
+    font-family: arial;
     background-image: url('./images/bulldog.jpg');
 }
-.main-nav{
-    display: flex;
-    background-color: rgb(56, 56, 216);
+
+.navlist{
+    list-style-type: none;
+    margin: 0;
+   background-color:burlywood;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: flex-end;
 }
-.main-content{
-    display:flex;
-    background-color: rgb(134, 212, 134);
+
+.navlist a{
+    text-decoration: none;
+    display:block;
+    padding:1em;
+    color:white;
+    font-size: 2em;
+}
+
+.navlist a:hover{
+    text-decoration:underline;
 }

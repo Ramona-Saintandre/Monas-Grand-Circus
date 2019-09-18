@@ -54,3 +54,4 @@ ______________________________
 
 [How I Use Flexbox to Create a One-page Website](https://medium.com/swlh/how-i-use-flexbox-to-create-a-one-page-website-81db78e61738)  
 [CSS Flexbox in Depth](https://www.udemy.com/course/flexbox-in-depth/learn/lecture/12030410#content)
+[Flexbox CSS In 20 Minutes](https://www.youtube.com/watch?v=JJSoEo8JSnc&t=214s)

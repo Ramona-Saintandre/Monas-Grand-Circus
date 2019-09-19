@@ -3,7 +3,7 @@
 **Building a Website**
 ____________________________
 
-This is the first of two projects for Grand Circus after hours Front-End Boot Camp start October 14th, 2019. 
+This is the first of two projects for Grand Circus after hours Front-End Boot Camp that starts October 14th, 2019. 
 
 We need to create two folders. 
 A HTML and a CSS folder. 

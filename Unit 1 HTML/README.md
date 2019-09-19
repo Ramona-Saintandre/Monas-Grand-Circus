@@ -13,15 +13,15 @@ Then we are needing to create a [Git Repo](https://github.com/Ramona-Saintandre)
 # Project Requirements
 
 * [ ] Website must be mobile responsive. It must match the stacked layout on mobile, and the inline layout on the desktop.   
-* [ ] Flexbox must be use  
+* [ ] Flexbox must be used  
 * [ ] All the colors that are provided in the style guide must be used correctly.  
 * [ ] There should be the correct hover state applied to the buttons and the navigation bar.  
 * [ ] There must be a background image used but should only show on the desktop, and not mobile.  
-* [ ] Use teh correct font given in the style guide.  
+* [ ] Use the correct font given in the style guide.  
 * [ ] Media queries must be wrtiten correctly- changing styles at 768px, mobile first, only using the min-width property
-* [ ] The stylesheet linked corectly, as well as hae the meta viewport tag
-* [ ] Anchor tags should not have an underline 
-* [ ] The navigation should be created by using a '\<ul>'
+* [ ] The stylesheet linked corectly, as well as have the meta viewport tag
+* [ x] Anchor tags should not have an underline 
+* [ x] The navigation should be created by using a '\<ul>'
 
 # Resources used 
 

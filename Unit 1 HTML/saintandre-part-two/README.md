@@ -12,7 +12,7 @@ ____________________________
 This is the second of two projects for Grand Circus after hours Front-End Boot Camp that starts October 14th, 2019. 
 
 We need to create two folders. 
-A HTML and a CSS folder. 
+A HTML and within that folder a script.js file. 
 
 Then we are needing to create a [Git Repo](https://github.com/Ramona-Saintandre), and submit our projects via the repo. 
 

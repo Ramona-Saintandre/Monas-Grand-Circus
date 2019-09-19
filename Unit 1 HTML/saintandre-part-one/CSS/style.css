@@ -6,13 +6,10 @@ html {
     width: 100%;
     margin: 0px;
     padding: 0px;
-}
-
-body {
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     background: #efebed;
 }
+
 
 #container {
     background-image: url("/images/bulldog.jpg");
@@ -25,15 +22,15 @@ body {
 
 .navlist {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-end;
-    padding: 1px;
+    padding: 10px;
     align-items: center;
 
 }
 
 li,
-li a, a {
+li a , a {
     list-style: none;
     text-decoration: none;
     color: #88898B;
@@ -52,10 +49,15 @@ ul {
     justify-content: flex-end;
     padding: 0px;
 }
-
+.sectbtn{
+    margin:125px;
+}
 @media (min-width:768px) {
 
-   
+    .navlist {
+        flex-direction: row;
+
+    }
 
     ul {
         flex-direction: row;
@@ -72,32 +74,41 @@ span {
 }
 
 .main-content {
-    margin: 35px ;
+   margin:125px;
 }
 
-.bold {
+.bold{
     padding-top: 100px;
     font-weight: 600;
-    font-size: 2em;
+    font-size: 2em; 
 }
 
-button, .ulbtn {
+button {
     background-color: #FF4850;
     border: none;
     color: #FFFFFF;
     font-weight: 400;
-    font-size: 1em;    
-    border-radius: 5px;  
-}
-.sectbtn{
+    font-size: 1em;
     padding: 10px;
-    margin: 35px;
-    width:225px;
-    background-color: #FF4850;
-    border: none;
-    color: #FFFFFF;
-    font-weight: 400;
-    font-size: 1em;    
-    border-radius: 5px; 
-    text-decoration: none;
+    border-radius: 15px;
+    margin: 10px 0px;
+}
+
+/* Media querie */
+
+@media (min-width:768px) {
+
+    .navlist {
+        flex-direction: row;
+
+    }
+
+    ul {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    li {
+        margin: 0px 10px 0px;
+    }
 }

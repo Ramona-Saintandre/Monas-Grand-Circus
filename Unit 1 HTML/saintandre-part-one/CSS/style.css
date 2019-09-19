@@ -10,27 +10,25 @@ html {
     background: #efebed;
 }
 
-
 #container {
     background-image: url("/images/bulldog.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgb(166, 166, 247);
     height: 100vh;
-
 }
 
+/* Navigation bar */
 .navlist {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     padding: 10px;
-    align-items: center;
-
+    align-items: baseline;
 }
 
 li,
-li a , a {
+li a  {
     list-style: none;
     text-decoration: none;
     color: #88898B;
@@ -73,8 +71,11 @@ span {
     color: red;
 }
 
-.main-content {
-   margin:125px;
+.content {
+   display: flex;
+   flex-direction: column;
+   width:30%;
+   justify-content: center;
 }
 
 .bold{

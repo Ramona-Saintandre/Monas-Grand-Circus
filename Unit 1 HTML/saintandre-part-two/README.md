@@ -39,3 +39,12 @@ Use the following table to drive the logic of your program.
 **EXMAPLE:** 
 “Since it is 33 degrees and you are going to a formal event, you should wear a suit
 and coat.”
+
+
+## Resources 
+
+[Javascript String Concatenation](https://www.youtube.com/watch?v=9Q8BAZffbz8&list=PLDyQo7g0_nsX8_gZAB8KD1lL4j4halQBJ&index=4)
+
+[JavaScript | String concat()](https://www.geeksforgeeks.org/javascript-string-prototype-concat-function/)
+
+[What we wear today?](https://devpost.com/software/what-to-wear-today)

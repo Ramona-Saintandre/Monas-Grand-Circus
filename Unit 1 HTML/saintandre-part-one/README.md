@@ -20,8 +20,8 @@ Then we are needing to create a [Git Repo](https://github.com/Ramona-Saintandre)
 * [ ] Use the correct font given in the style guide.  
 * [ ] Media queries must be wrtiten correctly- changing styles at 768px, mobile first, only using the min-width property
 * [ ] The stylesheet linked corectly, as well as have the meta viewport tag
-* [ x] Anchor tags should not have an underline 
-* [ x] The navigation should be created by using a '\<ul>'
+* [x] Anchor tags should not have an underline 
+* [x] The navigation should be created by using a '\<ul>'
 
 # Resources used 
 

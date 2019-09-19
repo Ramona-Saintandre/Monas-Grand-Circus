@@ -12,19 +12,30 @@ ____________________________
 This is the second of two projects for Grand Circus after hours Front-End Boot Camp that starts October 14th, 2019. 
 
 We need to create two folders. 
-A HTML and within that folder a script.js file. 
+A HTML and within that folder a script.js folder. 
 
 Then we are needing to create a [Git Repo](https://github.com/Ramona-Saintandre), and submit our projects via the repo. 
 
+**TASK**  
+ write a script that will infrom the user what they should be wearing based on two conditions: the temperature and the event type. 
+This information will be gathered through propmts.   
+Use the following table to drive the logic of your program. 
+
+**TABLE**
+
 # Project Requirements
 
-* [ ] Website must be mobile responsive. It must match the stacked layout on mobile, and the inline layout on the desktop.   
-* [ ] Flexbox must be use  
-* [ ] All the colors that are provided in the style guide must be used correctly.  
-* [ ] There should be the correct hover state applied to the buttons and the navigation bar.  
-* [ ] There must be a background image used but should only show on the desktop, and not mobile.  
-* [ ] Use teh correct font given in the style guide.  
-* [ ] Media queries must be wrtiten correctly- changing styles at 768px, mobile first, only using the min-width property
-* [ ] The stylesheet linked corectly, as well as hae the meta viewport tag
-* [ ] Anchor tags should not have an underline 
-* [ ] The navigation should be created by using a '\<ul>'
+
+* [ ] The ***script.js*** file must be linked with the '\<body>'element of the index.html.  
+* [ ] The ***script.js*** file will contain all of the code required to complete the challenge.  
+* [ ] Declare and initialize the following three variables.
+* **eventType** - will contain the information entered in the prompt for the event type.
+* **tempFahr** will contain the information entered in the propt for the temperature in Fahrenheit.
+* **result** is a string that will be logged to the console. 
+* [ ] Use conditional statements to drive the decision making of your program.  See the example below.  
+* [ ] Initializes **results** as a single string using concatenation. This string will contain the event type, temperature, and clothing suggestion.
+* [ ] Logs the **result** variable to the console.  
+
+**EXMAPLE:** 
+“Since it is 33 degrees and you are going to a formal event, you should wear a suit
+and coat.”

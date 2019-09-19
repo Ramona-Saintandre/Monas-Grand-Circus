@@ -1,91 +1,103 @@
-
-
-body,html{
+body,
+html {
     font-family: 'Fira Sans', sans-serif;
     /* background-color: #F0ECEE; */
     height: 100%;
-    width:100%;
-    margin: 0px ;
+    width: 100%;
+    margin: 0px;
     padding: 0px;
 }
+
 body {
-	font-family: 'Fira Sans', sans-serif;
-	font-size: 18px;
-	background: #efebed;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    background: #efebed;
 }
 
-#container{
+#container {
     background-image: url("/images/bulldog.jpg");
     background-repeat: no-repeat;
-background-size: cover;
-          background-color:rgb(166, 166, 247);
-          height:100vh;
-         
+    background-size: cover;
+    background-color: rgb(166, 166, 247);
+    height: 100vh;
+
 }
 
-.navlist{
-    display:flex;
-   flex-direction:column;
+.navlist {
+    display: flex;
+    flex-direction: row;
     justify-content: flex-end;
-    padding:10px;
+    padding: 1px;
     align-items: center;
-   
+
 }
 
-    li, li a{
-        list-style: none;
-        text-decoration: none;
-        color: #88898B;
-        margin:10px;
-    }
-    
-    li a:hover{
-       color: #ff4850;
-    }
+li,
+li a, a {
+    list-style: none;
+    text-decoration: none;
+    color: #88898B;
+    margin: 10px;
+}
 
-   ul{
-       display: flex;
-       flex-direction:column;
-    
-       width:90%;
-       justify-content: flex-end;
-       padding:0px;
-   }
+li a:hover {
+    color: #ff4850;
+}
 
-   @media (min-width:768px) {
+ul {
+    display: flex;
+    flex-direction: column;
+
+    width: 90%;
+    justify-content: flex-end;
+    padding: 0px;
+}
+
+@media (min-width:768px) {
+
    
-    .navlist{
-        flex-direction:row;         
-    
-    }
-    ul{
-        flex-direction:row;
+
+    ul {
+        flex-direction: row;
         align-items: flex-start;
     }
-    li{
-        margin:0px 10px 0px;
+
+    li {
+        margin: 0px 10px 0px;
     }
 }
-span{
-    color:red;
+
+span {
+    color: red;
 }
 
-.main-content{
-margin:10px;
+.main-content {
+    margin: 35px ;
 }
 
-.bold{
-    padding-top:100px;
+.bold {
+    padding-top: 100px;
     font-weight: 600;
     font-size: 2em;
 }
-button{
+
+button, .ulbtn {
     background-color: #FF4850;
     border: none;
     color: #FFFFFF;
     font-weight: 400;
-    font-size: 1em;   
+    font-size: 1em;    
+    border-radius: 5px;  
+}
+.sectbtn{
     padding: 10px;
-    border-radius: 5px;
-    /* margin: 10px 0px; */
+    margin: 35px;
+    width:225px;
+    background-color: #FF4850;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 1em;    
+    border-radius: 5px; 
+    text-decoration: none;
 }

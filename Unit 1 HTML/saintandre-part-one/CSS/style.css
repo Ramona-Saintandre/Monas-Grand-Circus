@@ -8,6 +8,12 @@ body,html{
     margin: 0px ;
     padding: 0px;
 }
+body {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 18px;
+	background: #efebed;
+}
+
 #container{
     background-image: url("/images/bulldog.jpg");
     background-repeat: no-repeat;
@@ -62,4 +68,24 @@ background-size: cover;
 }
 span{
     color:red;
+}
+
+.main-content{
+
+}
+
+.bold{
+    padding-top:100px;
+    font-weight: 600;
+    font-size: 2em;
+}
+button{
+    background-color: #FF4850;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 1em;   
+    padding: 10px;
+    border-radius: 5px;
+    /* margin: 10px 0px; */
 }

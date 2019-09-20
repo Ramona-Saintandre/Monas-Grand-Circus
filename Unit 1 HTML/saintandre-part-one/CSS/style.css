@@ -14,7 +14,7 @@ html {
     background-image: url("/images/bulldog.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgb(166, 166, 247);
+    background-color: #efebed;
     height: 100vh;
 }
 
@@ -24,7 +24,8 @@ html {
     flex-direction: column;
     justify-content: flex-end;
     padding: 10px;
-    align-items: baseline;
+    background-color: aqua
+    /* align-items: baseline; */
 }
 
 li,
@@ -76,6 +77,7 @@ span {
    flex-direction: column;
    width:30%;
    justify-content: center;
+   background-color: #88898B
 }
 
 .bold{

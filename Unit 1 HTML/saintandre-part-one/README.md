@@ -22,6 +22,20 @@ Then we are needing to create a [Git Repo](https://github.com/Ramona-Saintandre)
 * [ ] The stylesheet linked corectly, as well as have the meta viewport tag
 * [x] Anchor tags should not have an underline 
 * [x] The navigation should be created by using a '\<ul>'
+* [ ] Font-family: Fira Sans (Google Font)
+* [ ] Font-weights used: 600, 300, 400
+* [ ] Button padding: 10px
+* [ ] Button border-radius: 15px
+**Colors**  
+* [ ] Background-color: #F0ECEE
+* [ ] Button background color
+      Navigation/button text hover color
+      Word emphasis color: #FF4850  
+* [ ] Navigation link color: #88898B
+* [ ] Button hover background color:#CCC 
+
+
+
 
 # Resources used 
 

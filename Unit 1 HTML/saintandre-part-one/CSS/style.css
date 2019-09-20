@@ -7,14 +7,14 @@ html {
     margin: 0px;
     padding: 0px;
     font-size: 18px;
-    background: #efebed;
+ 
 }
 
 #container {
-    background-image: url("/images/bulldog.jpg");
+    background-image: url("/saintandre-part-one/images/bulldog.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #efebed;
+    /* background-color: #efebed; */
     height: 100vh;
 }
 
@@ -24,7 +24,7 @@ html {
     flex-direction: column;
     justify-content: flex-end;
     padding: 10px;
-    background-color: aqua
+    background-color: aqua;
     /* align-items: baseline; */
 }
 
@@ -48,25 +48,6 @@ ul {
     justify-content: flex-end;
     padding: 0px;
 }
-.sectbtn{
-    margin:125px;
-}
-@media (min-width:768px) {
-
-    .navlist {
-        flex-direction: row;
-
-    }
-
-    ul {
-        flex-direction: row;
-        align-items: flex-start;
-    }
-
-    li {
-        margin: 0px 10px 0px;
-    }
-}
 
 span {
     color: red;
@@ -77,7 +58,7 @@ span {
    flex-direction: column;
    width:30%;
    justify-content: center;
-   background-color: #88898B
+   
 }
 
 .bold{
@@ -86,15 +67,21 @@ span {
     font-size: 2em; 
 }
 
-button {
+/* button {
+    text-decoration: none;
     background-color: #FF4850;
-    border: none;
     color: #FFFFFF;
+    border: none;   
     font-weight: 400;
     font-size: 1em;
     padding: 10px;
     border-radius: 15px;
     margin: 10px 0px;
+} */
+.cntbtn,.sectbtn {
+    background-color: #ff4850;
+    color: #FFFFFF;  
+    text-decoration: none; 
 }
 
 /* Media querie */
@@ -103,15 +90,15 @@ button {
 
     .navlist {
         flex-direction: row;
-
     }
-
     ul {
         flex-direction: row;
         align-items: flex-start;
     }
-
     li {
         margin: 0px 10px 0px;
+    }
+    #container{
+        background-color: rgb(11, 155, 18);
     }
 }

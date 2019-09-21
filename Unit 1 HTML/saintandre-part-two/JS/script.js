@@ -1,35 +1,42 @@
 // Declare the variables
 
-let eventType = prompt ("what kind of event are you going to ?","casual,semi-formal,formal");
+var eventType = prompt ("what kind of event are you going to ?","casual,semi-formal,formal");
+var tempFahr = prompt ("What is the tempature outside?" , "Fahrenheit tempature");
+var clothingType;
+var tempClothType;
 
-let tempFahr = prompt ("What is the tempature outside?" , "Fahrenheit tempature");
+//define the variable ?
 
 // Clothing recommendation based on eventType
 
 if (eventType === 'casual'){
-    let clothingType = 'something comfy';
+    var clothingType = 'something comfy';
 }else if (eventType === 'semi-formal') {
-    let clothingType = "a polo";
+    var clothingType = "a polo";
 }else if (eventType === 'formal') {
-    let clothingType = 'a suit';
+    var clothingType = 'a suit';
 };
 
 // Clothing recommendation based on the tempature 
 
 if (tempFahr <54){
-    let tempClothType = 'a coat';
+    var tempClothType = 'a coat';
 }else if (tempFahr >=54 && tempFahr <=70 ){
-    let tempClothType = 'a jacket';
+    var tempClothType = 'a jacket';
 }else if (tempFahr >= 71){
-    let tempClothType = 'no jacket';
+    var tempClothType = 'no jacket';
 };
+
 
 // output  
 
 //template literal concatenation is not working 
-// let result = `Since it is $(tempFahr) degrees and you are going to a $(eventType) event, you should wear $(clothingType + tempClothType)`;
+// var result = `Since it is $(tempFahr) degrees and you are going to a $(eventType) event, you should wear $(clothingType + tempClothType)`;
 
 //string concatenation 
-let result = "Since it is " + tempFahr + "degrees and you are going to a " + eventType + " event, you should wear" + clothingType + ".";
+var result = "Since it is " + tempFahr + " degrees and you are going to a " + eventType + " event, you should wear " + clothingType + " and " + tempClothType + ".";
 
 console.log (result);
+alert(result);
+
+

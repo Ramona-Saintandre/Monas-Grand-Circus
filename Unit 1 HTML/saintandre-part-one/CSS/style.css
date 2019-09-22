@@ -16,12 +16,14 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding: 10px;
     align-items: center;
+    padding: 10px;    
     font-weight: 400;
     color: #88898b;
 }
-
+.adoptme{
+    width: 85%;
+}
 li,
 li a,
 a {
@@ -40,7 +42,10 @@ li a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    padding: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* padding: 15%; */
     /* margin:15px; */
 }
 
@@ -102,25 +107,20 @@ p{
     .navlist {
         flex-direction: row;
     }
-
     ul {
         flex-direction: row;
         align-items: flex-start;
     }
-
     li {
         margin: 0px 10px 0px;
     }
-
     #container {
         background-color: #efebed;
         padding: 25px 50px;
     }
-
     span {
         color: red;
     }
-
     button {
         display: block;
         max-width: 220px;

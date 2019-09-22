@@ -17,13 +17,14 @@ html {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    padding: 10px;    
+    padding-top: 10px;     
     font-weight: 400;
     color: #88898b;
     }
 .adoptme{
     width: 85%;
 }
+
 li,
 li a,
 a {

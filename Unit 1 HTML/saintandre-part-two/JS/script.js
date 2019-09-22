@@ -31,10 +31,10 @@ if (tempFahr <54){
 // output  
 
 //template literal concatenation is not working 
-// var result = `Since it is $(tempFahr) degrees and you are going to a $(eventType) event, you should wear $(clothingType + tempClothType)`;
+ var result = `Since it is $(tempFahr) degrees and you are going to a $(eventType) event, you should wear $(clothingType + tempClothType)`;
 
 //string concatenation 
-var result = "Since it is " + tempFahr + " degrees and you are going to a " + eventType + " event, you should wear " + clothingType + " and " + tempClothType + ".";
+// var result = "Since it is " + tempFahr + " degrees and you are going to a " + eventType + " event, you should wear " + clothingType + " and " + tempClothType + ".";
 
 console.log (result);
 alert(result);

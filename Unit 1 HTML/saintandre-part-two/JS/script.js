@@ -1,7 +1,7 @@
 // Declare the variables
 
-var eventType = prompt ("what kind of event are you going to ?","casual,semi-formal,formal");
-var tempFahr = prompt ("What is the tempature outside?" , "Fahrenheit tempature");
+var eventType = prompt ("what kind of event are you going to ? will it be casual, semi-formal, formal");
+var tempFahr = prompt ("What is the tempature outside? , Fahrenheit tempature Please");
 var clothingType;
 var tempClothType;
 
@@ -38,5 +38,6 @@ var result = "Since it is " + tempFahr + " degrees and you are going to a " + ev
 
 console.log (result);
 alert(result);
+
 
 

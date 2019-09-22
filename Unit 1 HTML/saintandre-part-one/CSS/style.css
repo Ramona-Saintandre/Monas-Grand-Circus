@@ -1,6 +1,6 @@
 
 
-*body,
+*, body,
 html {
     font-family: 'Fira Sans', sans-serif;
     /* background-color: #F0ECEE; */
@@ -41,7 +41,8 @@ li a:hover {
     background-image: url("/images/bulldog.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -104,13 +105,13 @@ p{
 
 /* Media querie */
 
-@media (min-width:768px) {
+@media only screen and (min-width:768px) {
     .navlist {
         flex-direction: row;
     }
     ul {
         flex-direction: row;
-        align-items: flex-start;
+        align-items: center;
     }
     li {
         margin: 0px 10px 0px;

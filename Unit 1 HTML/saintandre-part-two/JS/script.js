@@ -5,7 +5,7 @@ var tempFahr = prompt ("What is the tempature outside? , Fahrenheit tempature Pl
 var clothingType;
 var tempClothType;
 
-//define the variable ?
+//define the variable 
 
 // Clothing recommendation based on eventType
 
@@ -30,7 +30,7 @@ if (tempFahr <54){
 
 // output  
 
-//template literal concatenation is not working 
+//template literal concatenation 
  var result = `Since it is $(tempFahr) degrees and you are going to a $(eventType) event, you should wear $(clothingType + tempClothType)`;
 
 //string concatenation 

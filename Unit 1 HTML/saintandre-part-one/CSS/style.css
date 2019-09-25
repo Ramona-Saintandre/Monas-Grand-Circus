@@ -1,4 +1,7 @@
-*{
+
+
+/*first submission failed, starting over from scratch
+ *{
     padding: 0;
     margin: 0;
     height: 100%;
@@ -11,13 +14,13 @@
 	font-size: 18px;
  }
 
-/* Navigation bar */
+ Navigation bar 
 
 .navlist {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    /* align-content: center; */
+    align-content: center; 
     padding: 10px 0px 0px 0px;
     font-weight: 400;
     color: #88898b;
@@ -54,7 +57,7 @@ li a:hover {
 
 }
 
-/* Button background color #FF4850 */
+Button background color #FF4850 
 
 button {
     display: flex;
@@ -76,17 +79,17 @@ button {
     cursor: pointer;
 }
 
-/* Navigation/button text hover color */
+ Navigation/button text hover color 
 button a:hover {
     color: #ff4850;
 }
 
-/* Button hover background color: #CCC */
+ Button hover background color: #CCC 
 button:hover {
     background-color: #ccc;
 }
 
-/* Container */
+Container 
 ul {
     display: flex;
     flex-direction: column;
@@ -100,7 +103,7 @@ span {
 }
 
 .bold {
-    /* padding-top: 100px; */
+     padding-top: 100px; 
     font-weight: 600;
     font-size: 2em;
     padding: 25px;
@@ -118,12 +121,12 @@ p{
     display: flex;
     flex-direction: column;
     align-items: left;
-    /* height: 50%;
-    width: 50%; */
+     height: 50%;
+    width: 50%; 
     padding: 20px;
 }
 
-/* Media querie */
+ Media querie 
 
 @media only screen and (min-width:768px) {
      .navlist {        
@@ -136,14 +139,14 @@ p{
         align-items: center;
     }
 
-    /* li {
+    /li {
         margin: 0px 10px 0px;
-    } */
+    } 
 
-    /* #container {
+     #container {
         background-color: #efebed;
         padding: 25px 50px;
-    } */
+    } 
 
     span {
         color: red;
@@ -154,14 +157,14 @@ p{
         flex-direction: column;
         width: 300px; 
         height: 10px;       
-        /* padding: 10px 0px 10px; */
+        padding: 10px 0px 10px; 
      
     }
 
-    /* section {
+     section {
         display: flex;
         flex-direction: column;
         
-    } */
+    } 
     
-}
+}*/

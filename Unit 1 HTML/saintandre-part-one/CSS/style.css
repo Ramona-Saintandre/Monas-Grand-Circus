@@ -3,6 +3,9 @@
     margin: 0;
     
 }
+*html{
+    
+}
 
 #container {
     /* background-image: url("/images/bulldog.jpg"); */
@@ -18,16 +21,21 @@
     border: 3px red solid;
 }
 img{
-    width:100%;
-    height: 100%;
+    width:100vw;
+    height: 100vh;
+    background-size:cover;
 }
 
 .navlist {
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    align-content: center; 
     padding: 10px 0px 0px 0px;
     font-weight: 400;
+    color: #88898b;
+    padding-top: 30px;
+    padding-left:30px;
     border: 3px rgb(28, 10, 194) solid;
     background: rgb(146, 183, 238);
     
@@ -44,6 +52,8 @@ a {
 }
 
 .content {
+    display: flex;
+    flex-direction: column;
     border: 3px rgb(235, 212, 11) solid;
     background: rgb(209, 235, 137);
 }

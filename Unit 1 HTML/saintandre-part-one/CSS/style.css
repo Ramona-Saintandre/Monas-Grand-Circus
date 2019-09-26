@@ -8,7 +8,7 @@ html{
     background-size:cover;
 }
 
-/* #container {
+ #container {
     background-image: url("/images/bulldog.jpg"); 
     display: flex;
     background-repeat: no-repeat;
@@ -57,7 +57,7 @@ a {
     flex-direction: column;
     border: 3px rgb(235, 212, 11) solid;
     background: rgb(209, 235, 137);
-} */
+} 
 
 
 /*first submission failed, starting over from scratch

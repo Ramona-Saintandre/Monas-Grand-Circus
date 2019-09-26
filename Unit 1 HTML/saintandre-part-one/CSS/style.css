@@ -9,7 +9,7 @@ html{
 }
 
  #container {
-    background-image: url("/images/bulldog.jpg"); 
+    /* background-image: url("/images/bulldog.jpg");  */
     display: flex;
     background-repeat: no-repeat;
     background-size: cover;
@@ -39,6 +39,8 @@ img{
     padding-left:30px;
     border: 3px rgb(28, 10, 194) solid;
     background: rgb(146, 183, 238);
+    width: 100%;
+    height: auto;
     
 }
 
@@ -59,7 +61,16 @@ a {
     background: rgb(209, 235, 137);
 } 
 
-
+/* Media query */
+@media only screen and (min-width:768px) {
+    .navlist {        
+       display: flex;
+       flex-direction: column;           
+       } 
+       ul {
+        flex-direction: column;
+        align-items: center;
+    }
 /*first submission failed, starting over from scratch
  *{
     padding: 0;

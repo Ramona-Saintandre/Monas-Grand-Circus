@@ -1,3 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+#container {
+    background-image: url("/images/bulldog.jpg");
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    height: 100vh;
+    width: 100%;       
+    border: 3px red solid;
+}
+
+
+.navlist {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border: 3px rgb(28, 10, 194) solid;
+    background: rgb(146, 183, 238);
+}
+
+
+li,
+li a,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #88898B;
+    margin: 0px 10px 0px;
+}
+
+.content {
+    border: 3px rgb(235, 212, 11) solid;
+    background: rgb(209, 235, 137);
+}
 
 
 /*first submission failed, starting over from scratch

@@ -24,6 +24,7 @@
     flex-direction: row;
     justify-content: flex-end;
     padding: 10px 0px 0px 0px;
+    font-weight: 400;
     border: 3px rgb(28, 10, 194) solid;
     background: rgb(146, 183, 238);
 }

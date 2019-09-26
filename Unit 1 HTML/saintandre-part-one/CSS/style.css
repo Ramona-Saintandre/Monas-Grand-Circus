@@ -21,11 +21,6 @@ html{
     width: 100%;       
     border: 3px red solid;
 }
-img{
-    width:100vw;
-    height: 100vh;
-    background-size:cover;
-}
 
 .navlist {
     display: flex;
@@ -43,7 +38,13 @@ img{
     height: auto;
     
 }
-
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;    
+    padding: 0px;
+}
 
 li,
 li a,

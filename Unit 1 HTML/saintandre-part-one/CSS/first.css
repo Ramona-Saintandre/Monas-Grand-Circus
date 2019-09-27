@@ -1,0 +1,168 @@
+/*first submission failed, starting over from scratch
+ *{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    
+}
+ body{
+    
+    font-family: 'Fira Sans', sans-serif;    
+	font-size: 18px;
+ }
+
+ Navigation bar 
+
+.navlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center; 
+    padding: 10px 0px 0px 0px;
+    font-weight: 400;
+    color: #88898b;
+    padding-top: 30px;
+    padding-left:30px;
+}
+
+.adoptme {
+    width: 95%;
+    
+}
+
+li,
+li a,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #88898B;
+    margin: 0px 10px 0px;
+}
+
+li a:hover {
+    color: #ff4850;
+}
+
+#container {
+    background-image: url("/images/bulldog.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+
+}
+
+Button background color #FF4850 
+
+button {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #FF4850;
+    border: none;
+    font-weight: 400;
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 0px 60px 0px 0px;
+    width: 300px;    
+    height: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+ Navigation/button text hover color 
+button a:hover {
+    color: #ff4850;
+}
+
+ Button hover background color: #CCC 
+button:hover {
+    background-color: #ccc;
+}
+
+Container 
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;    
+    padding: 0px;
+}
+
+span {
+    color: red;
+}
+
+.bold {
+     padding-top: 100px; 
+    font-weight: 600;
+    font-size: 2em;
+    padding: 25px;
+    height: 100px;
+    width: 300px;
+}
+p{
+    padding: 25px;
+    height: 100px;
+    width: 300px;  
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+     height: 50%;
+    width: 50%; 
+    padding: 20px;
+}
+
+ Media querie 
+
+@media only screen and (min-width:768px) {
+     .navlist {        
+        display: flex;
+        flex-direction: column;           
+        } 
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /li {
+        margin: 0px 10px 0px;
+    } 
+
+     #container {
+        background-color: #efebed;
+        padding: 25px 50px;
+    } 
+
+    span {
+        color: red;
+    }
+
+    button {
+        display: flex;
+        flex-direction: column;
+        width: 300px; 
+        height: 10px;       
+        padding: 10px 0px 10px; 
+     
+    }
+
+     section {
+        display: flex;
+        flex-direction: column;
+        
+    } 
+    
+}*/

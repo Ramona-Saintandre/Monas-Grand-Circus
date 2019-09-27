@@ -68,11 +68,11 @@ a {
 /* Media query */
 @media screen and (min-width:768px) {
     html {
-        background: url("/images/bulldog.jpg") no-repeat center fixed;
+        /* background: url("/images/bulldog.jpg") no-repeat center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: cover;
+        background-size: cover; */
         font-family: 'Fira Sans', sans-serif;
         background-color: #F0ECEE;
         height: 100%;

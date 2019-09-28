@@ -21,6 +21,10 @@ header{
     padding: 30px 10px;
 }
 
+.bulldog{
+    cursor: pointer;
+    margin-right: auto;
+}
 .navlinks{
     list-style: none;
 }
@@ -44,6 +48,7 @@ button {
    border-radius:15px;
    cursor: pointer;
    transition:all 0.3s ease 0s;
+   margin: 20px;
     
 }
 button:hover{

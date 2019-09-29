@@ -13,6 +13,7 @@ body {
 header {
     display: flex;
     flex-direction: column;
+    
     background-color: aqua;
 }
 
@@ -21,6 +22,10 @@ header {
 }
 
 .navlist {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    padding-top: 10px;
 color: #88898B;
 background-color: aqua;
 }
@@ -75,9 +80,11 @@ button:hover {
     justify-content: flex-start;
 }
 
-h1 {
+.logo{
     font-weight: 600;
     color:black;
+    cursor: pointer;
+    margin-right: auto;
 }
 
 h2 {

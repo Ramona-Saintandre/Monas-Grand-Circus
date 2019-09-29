@@ -26,10 +26,7 @@ body {
     height: 100vh;
 }
 
-header {
-    display: flex;
-    flex-direction: column;
-}
+
 
 .redbold {
     color: #FF4850;
@@ -37,11 +34,11 @@ header {
 }
 
 .navlist {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 color: #88898B;
 }
-
-
-
 
 .navlist:hover {
     color: #FF4850;
@@ -70,7 +67,7 @@ a:hover {
     color: #FF4850;
 }
 
-.btn {
+button {
     color: white;
     background-color: #FF4850;
     padding: 10px;
@@ -81,7 +78,7 @@ a:hover {
     width: 100%;
 }
 
-.btn:hover {
+button:hover {
     background-color: #CCC;
     color: #FF4850;
 }
@@ -103,7 +100,7 @@ h2 {
 
 
 
- @media screen and (min-width: 768px) {
+ @media only screen and (min-width: 768px) {
     html {
         background-color: #F0ECEE; 
     }
@@ -133,9 +130,6 @@ h2 {
 color: #88898B;
 }
 
-
-
-
 .navlist:hover {
     color: #FF4850;
 }
@@ -163,7 +157,7 @@ a:hover {
     color: #FF4850;
 }
 
-.btn {
+button {
     color: white;
     background-color: #FF4850;
     padding: 10px;
@@ -174,7 +168,7 @@ a:hover {
     width: 100%;
 }
 
-.btn:hover {
+button:hover {
     background-color: #CCC;
     color: #FF4850;
 }
@@ -218,7 +212,7 @@ h2 {
         flex-direction: row;
     }
 
-    .btn {
+    button {
         width: auto;
     }
  }

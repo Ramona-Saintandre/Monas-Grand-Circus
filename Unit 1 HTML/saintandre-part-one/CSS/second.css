@@ -109,7 +109,7 @@ h2 {
     body {
         display: flex;
         flex-flow: column;
-        background-image: url(./Images/bulldog.jpg);
+        background-image: url(../images/bulldog.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
@@ -202,7 +202,7 @@ h2 {
     body {
         display: flex;
         flex-flow: column;
-        background-image: url(./Images/bulldog.jpg);
+        background-image: url(../images/bulldog.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;

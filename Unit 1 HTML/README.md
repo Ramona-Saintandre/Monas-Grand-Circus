@@ -25,11 +25,20 @@ I was not expecting to do so well on the JavaScript, especially since I had used
 
 Not sure why , but my media queries and mobile first was not working when I submitted. 
 
-Thinking it would be a easy fix, I started making some changes and totaled the project.  
+Thinking it would be a easy fix, I started making some changes and totaled the project. 
+   
 After 3 attempts, all files I have saved for learning purposes.  
-(Maybe once I become better at this, I can get all 3 in working order.)  
+(Maybe once I become better at this, I can get all 3 in working order.)
+
 I finally have a submittable project.  
+
 It still has some issues, actually it has one issue.  
+
 But I am to afraid to fix it, when I tried to comment out the logo element in the CSS, it throws everything back out of whack again.  
-So my Adopt Me logo is not formatted right. 
-I tried to use strong
+So my Adopt Me logo is not formatted right.  
+I tried to use strong.  
+While writing these notes, realized that I had not tried to use the bold tag, even though I had it set in a bold class, that was not working.  
+Wrapped it in a bold element, and it works fine. 
+
+I also feel that it does have some spacing issues, but this project was not suppose to be perfect. 
+I made it a close as I could. 

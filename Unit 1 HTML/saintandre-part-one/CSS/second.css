@@ -13,7 +13,7 @@ header {
     flex-direction: column;
 }
 
-.span {
+.red {
     color: #FF4850;
 }
 html {
@@ -31,18 +31,19 @@ header {
     flex-direction: column;
 }
 
-.red {
+.redbold {
     color: #FF4850;
+    font-size: size 400px;
 }
 
-.nav {
+.navlist {
 color: #88898B;
 }
 
 
 
 
-.nav:hover {
+.navlist:hover {
     color: #FF4850;
 }
 
@@ -69,7 +70,7 @@ a:hover {
     color: #FF4850;
 }
 
-.button {
+.btn {
     color: white;
     background-color: #FF4850;
     padding: 10px;
@@ -80,12 +81,12 @@ a:hover {
     width: 100%;
 }
 
-.button:hover {
+.btn:hover {
     background-color: #CCC;
     color: #FF4850;
 }
 
-#parent {
+#content {
     display: flex;
     flex-flow: column wrap-reverse;
     justify-content: flex-start;
@@ -124,7 +125,7 @@ h2 {
         flex-direction: row;
     }
 
-    .button {
+    .btn {
         width: auto;
     }
  }

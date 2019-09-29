@@ -12,27 +12,27 @@ Then we are needing to create a [Git Repo](https://github.com/Ramona-Saintandre)
 
 # Project Requirements
 
-* [ ] Website must be mobile responsive. It must match the stacked layout on mobile, and the inline layout on the desktop.   
-* [ ] Flexbox must be used  
-* [ ] All the colors that are provided in the style guide must be used correctly.  
-* [ ] There should be the correct hover state applied to the buttons and the navigation bar.  
-* [ ] There must be a background image used but should only show on the desktop, and not mobile.  
-* [ ] Use the correct font given in the style guide.  
-* [ ] Media queries must be wrtiten correctly- changing styles at 768px, mobile first, only using the min-width property
-* [ ] The stylesheet linked corectly, as well as have the meta viewport tag
+* [x ] Website must be mobile responsive. It must match the stacked layout on mobile, and the inline layout on the desktop.   
+* [x ] Flexbox must be used  
+* [x ] All the colors that are provided in the style guide must be used correctly.  
+* [x] There should be the correct hover state applied to the buttons and the navigation bar.  
+* [x] There must be a background image used but should only show on the desktop, and not mobile.  
+* [x] Use the correct font given in the style guide.  
+* [x] Media queries must be wrtiten correctly- changing styles at 768px, mobile first, only using the min-width property
+* [x] The stylesheet linked corectly, as well as have the meta viewport tag
 * [x] Anchor tags should not have an underline 
 * [x] The navigation should be created by using a '\<ul>'
-* [ ] Font-family: Fira Sans (Google Font)
-* [ ] Font-weights used: 600, 300, 400
-* [ ] Button padding: 10px
-* [ ] Button border-radius: 15px
+* [x] Font-family: Fira Sans (Google Font)
+* [x] Font-weights used: 600, 300, 400
+* [x] Button padding: 10px
+* [x] Button border-radius: 15px
 **Colors**  
-* [ ] Background-color: #F0ECEE
-* [ ] Button background color
+* [x] Background-color: #F0ECEE
+* [x] Button background color
       Navigation/button text hover color
       Word emphasis color: #FF4850  
-* [ ] Navigation link color: #88898B
-* [ ] Button hover background color:#CCC 
+* [x] Navigation link color: #88898B
+* [x] Button hover background color:#CCC 
 
 
 
@@ -75,9 +75,7 @@ ______________________________
 These are the things I need to work on 
 
 
-Part 1: 6/10 
-
-
+Part 1: 6/10  
 There is a total of 10 points available for deliverable 1.
 
 -1 point: The website must be mobile responsive. This means the page must match the stacked layout on mobile, and the inline layout on desktop. You need to be using flexbox to achieve this. -1pt no mobile version

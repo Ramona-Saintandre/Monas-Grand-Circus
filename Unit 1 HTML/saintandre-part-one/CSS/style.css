@@ -1,9 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans);
 
 * {
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Fira Sans", sans-serif;/*style guide font*/
 }
 
+/*mobile first approach is working */
 html { 
   min-height: 100vh;
   width: 100vw;
@@ -11,56 +12,53 @@ html {
 
 body {
   min-height: 95vh; 
-  background-color: #F0ECEE;
+  background-color: #F0ECEE; /*Background-color: #F0ECEE*/
   margin: 15px; 
   display: flex; 
   flex-direction: column;
 }
 
 header {
-  display: flex;
+  display: flex; /* using flexbox */
   flex-direction: column;
   flex-wrap: wrap;
   align-items: flex-start;
 }
 
 strong {
-  color: #FF4850;
+  color: #FF4850;/*Button background color Navigation/button text hover color Word emphasis color: #FF4850*/
   font-style: none; 
 }
 
 button {
-  padding: 10px;
-  border-radius: 15px; 
+  padding: 10px; /*Button padding: 10px*/
+  border-radius: 15px; /* border radius of 15px*/ 
   border-style: none; 
-
-  background-color: #FF4850;
+  background-color: #FF4850; /*Button background color Navigation/button text hover color Word emphasis color: #FF4850*/
   color: white;
   font-size: 18px;
-  font-weight: 300;
-
+  font-weight: 300; /* Font-weights used: 600, 300, 400 */
   width: 100%;
-
   cursor: pointer; 
 }
 
 button:hover { 
-  background-color: #CCC;
-  color: #FF4850;
+  background-color: #CCC; /*Button hover background color:#CCC*/
+  color: #FF4850; /*Button background color Navigation/button text hover color Word emphasis color: #FF4850*/
 }
 
 .logo {
   margin: 0;
   font-size: 22px;
-  font-weight: 400;
+  font-weight: 400; /* Font-weights used: 600, 300, 400 */
   flex: 1; 
 }
 
 .logo strong {
-  font-weight: 400;
+  font-weight: 400; /* Font-weights used: 600, 300, 400 */
 }
 
-ul {
+ul { /* The navigation should be created by using a '<ul>'*/
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -71,22 +69,22 @@ ul {
 }
 
 span {
-    color: red;
+    color: red; /*Button background color Navigation/button text hover color Word emphasis color: #FF4850*/
 }
 
-a {
-  text-decoration: none; 
-  color: #88898B;
-  font-weight: 300;
+a { 
+  text-decoration: none; /* no underlines on anchor tags */
+  color: #88898B; /*Navigation link color: #88898B/
+  font-weight: 300; /* Font-weights used: 600, 300, 400 */
 }
 
-a:hover {
+a:hover { /* hover for anchor tags */
   color: #FF4850; 
 }
 
 .bold {
   font-style: none;
-  font-weight: 600;
+  font-weight: 600; /* Font-weights used: 600, 300, 400 */
   line-height: 1.5;
 }
 

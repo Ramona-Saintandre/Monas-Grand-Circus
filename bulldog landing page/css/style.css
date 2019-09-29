@@ -1,0 +1,150 @@
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans);
+
+* {
+  font-family: "Fira Sans", sans-serif;
+}
+
+html { 
+  min-height: 100vh;
+  width: 100vw;
+}
+
+body {
+  min-height: 95vh; 
+  background-color: #F0ECEE;
+  margin: 15px; 
+  display: flex; 
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+strong {
+  color: #FF4850;
+  font-style: none; 
+}
+
+button {
+  padding: 10px;
+  border-radius: 15px; 
+  border-style: none; 
+
+  background-color: #FF4850;
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+
+  width: 100%;
+
+  cursor: pointer; 
+}
+
+button:hover { 
+  background-color: #CCC;
+  color: #FF4850;
+}
+
+.title {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 400;
+  flex: 1; 
+}
+
+.title strong {
+  font-weight: 400;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  list-style: none; 
+  font-size: 18px;
+  margin: 10px 0;
+  padding-left: 0; 
+}
+
+a {
+  text-decoration: none; 
+  color: #88898B;
+  font-weight: 300;
+}
+
+a:hover {
+  color: #FF4850; 
+}
+
+.bold {
+  font-style: none;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.bold strong {
+  font-weight: 600;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.0;
+  color: #88898B; 
+}
+
+/*Media tag to adjust style for desktop mode*/
+@media (min-width: 768px) {
+  body { /*Add background image*/
+    background-image: url(/bulldog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px 50px;
+  }
+
+  header { 
+    flex-direction: row;
+  }
+
+  ul { 
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+
+  li {
+    margin: 0 5px;
+  }
+
+  button { 
+    width: auto;
+  }
+
+  main { 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    width: 45%; 
+    flex: 1;
+  }
+
+  .bold {
+    margin: 0;
+  }
+
+  .cntbtn {
+    padding: 15px 50px; 
+  }
+
+  p { 
+    font-size: 20px;
+    line-height: 1.25;
+  }
+}

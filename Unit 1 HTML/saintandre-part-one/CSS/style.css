@@ -24,6 +24,9 @@ html {
 } 
 
 .navlist {
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-end;
     list-style-type: none;
     padding-left: 0;
     font-weight: 300;
@@ -60,12 +63,15 @@ a:hover, button:hover{
     margin-bottom: 10px;
   }
 
-/* .content {
+  .red{
+    color: #FF4850;  
+  }
+ .content {
     display: flex;
     flex-direction: column;
     border: 3px rgb(235, 212, 11) solid;
     background: rgb(209, 235, 137);
-} */
+} 
 
 /* Media query */
 @media screen and (min-width:768px) {

@@ -12,8 +12,7 @@ body {
 
 header {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;    
     background-color: aqua;
 }
 
@@ -51,7 +50,7 @@ a {
     display: inline;
     text-decoration: none;
     color: #88898B;
-    padding: 4px;
+    padding: 10px;
 }
 
 a:hover {

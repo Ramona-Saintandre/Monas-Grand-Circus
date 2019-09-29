@@ -12,9 +12,9 @@ Then we are needing to create a [Git Repo](https://github.com/Ramona-Saintandre)
 
 # Project Requirements
 
-* [x ] Website must be mobile responsive. It must match the stacked layout on mobile, and the inline layout on the desktop.   
-* [x ] Flexbox must be used  
-* [x ] All the colors that are provided in the style guide must be used correctly.  
+* [x] Website must be mobile responsive. It must match the stacked layout on mobile, and the inline layout on the desktop.   
+* [x] Flexbox must be used  
+* [x] All the colors that are provided in the style guide must be used correctly.  
 * [x] There should be the correct hover state applied to the buttons and the navigation bar.  
 * [x] There must be a background image used but should only show on the desktop, and not mobile.  
 * [x] Use the correct font given in the style guide.  

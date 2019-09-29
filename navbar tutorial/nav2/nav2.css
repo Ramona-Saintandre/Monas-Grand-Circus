@@ -16,6 +16,7 @@ text-decoration: none;
 
 header{
     display: flex;
+    flex-direction: column;
     justify-content:flex-end ;
     align-items: center;
     padding: 30px 10px;
@@ -54,3 +55,23 @@ button {
 button:hover{
     background-color:rgba(0,136,169,0.8);
 }
+
+/* @media only screen and (min-width:768px){
+
+    body{
+        display: flex;
+        flex-flow: column;
+    }
+      header {
+          flex-direction: row;
+          justify-content: space-between;
+      }
+      .navlinks ul{
+flex-direction: row;
+      }
+    
+    .navlinks{
+        display:flex;
+        flex-direction:row;
+    }
+} */

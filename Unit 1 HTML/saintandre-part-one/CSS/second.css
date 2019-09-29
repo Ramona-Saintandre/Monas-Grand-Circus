@@ -162,7 +162,7 @@ a:hover {
     color: #FF4850;
 }
 
-.button {
+.btn {
     color: white;
     background-color: #FF4850;
     padding: 10px;
@@ -173,12 +173,12 @@ a:hover {
     width: 100%;
 }
 
-.button:hover {
+.btn:hover {
     background-color: #CCC;
     color: #FF4850;
 }
 
-#parent {
+#content {
     display: flex;
     flex-flow: column wrap-reverse;
     justify-content: flex-start;
@@ -217,7 +217,7 @@ h2 {
         flex-direction: row;
     }
 
-    .button {
+    .btn {
         width: auto;
     }
  }

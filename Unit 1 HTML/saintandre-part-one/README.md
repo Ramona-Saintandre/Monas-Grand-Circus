@@ -100,3 +100,8 @@ There is a total of 10 points available for deliverable 1.
 
 N/A: -1 points: Any errors including issues with stylesheet being linked. - file names are case sensitive on windows
 
+10/3/2019 
+
+Got notified yesterday that I passed. 
+Made payment and getting ready to start. 
+11 days and counting :)

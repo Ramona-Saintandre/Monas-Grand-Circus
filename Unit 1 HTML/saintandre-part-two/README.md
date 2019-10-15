@@ -26,15 +26,15 @@ Use the following table to drive the logic of your program.
 # Project Requirements
 
 
-* [ ] The ***script.js*** file must be linked with the '\<body>'element of the index.html.  
-* [ ] The ***script.js*** file will contain all of the code required to complete the challenge.  
-* [ ] Declare and initialize the following three variables.
+* [x ] The ***script.js*** file must be linked with the '\<body>'element of the index.html.  
+* [x ] The ***script.js*** file will contain all of the code required to complete the challenge.  
+* [x ] Declare and initialize the following three variables.
 * **eventType** - will contain the information entered in the prompt for the event type.
 * **tempFahr** will contain the information entered in the propt for the temperature in Fahrenheit.
 * **result** is a string that will be logged to the console. 
-* [ ] Use conditional statements to drive the decision making of your program.  See the example below.  
-* [ ] Initializes **results** as a single string using concatenation. This string will contain the event type, temperature, and clothing suggestion.
-* [ ] Logs the **result** variable to the console.  
+* [x ] Use conditional statements to drive the decision making of your program.  See the example below.  
+* [ x] Initializes **results** as a single string using concatenation. This string will contain the event type, temperature, and clothing suggestion.
+* [ x] Logs the **result** variable to the console.  
 
 **EXMAPLE:** 
 “Since it is 33 degrees and you are going to a formal event, you should wear a suit

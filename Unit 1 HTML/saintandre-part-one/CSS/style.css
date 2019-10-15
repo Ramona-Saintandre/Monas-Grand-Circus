@@ -1,115 +1,151 @@
-body,
-html {
-    font-family: 'Fira Sans', sans-serif;
-    /* background-color: #F0ECEE; */
-    height: 100%;
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    font-size: 18px;
-    background: #efebed;
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans);
+
+* {
+  font-family: "Fira Sans", sans-serif;/*style guide font*/
 }
 
-#container {
-    background-image: url("/images/bulldog.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgb(166, 166, 247);
-    height: 100vh;
+/*mobile first approach is working */
+html { 
+  min-height: 100vh;
+  width: 100vw;
 }
 
-/* Navigation bar */
-.navlist {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding: 10px;
-    align-items: baseline;
+body {
+  min-height: 95vh; 
+  background-color: #F0ECEE; /*Background-color: #F0ECEE*/
+  margin: 15px; 
+  display: flex; 
+  flex-direction: column;
 }
 
-li,
-li a  {
-    list-style: none;
-    text-decoration: none;
-    color: #88898B;
-    margin: 10px;
+header {
+  display: flex; /* using flexbox */
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
 
-li a:hover {
-    color: #ff4850;
-}
-
-ul {
-    display: flex;
-    flex-direction: column;
-
-    width: 90%;
-    justify-content: flex-end;
-    padding: 0px;
-}
-.sectbtn{
-    margin:125px;
-}
-@media (min-width:768px) {
-
-    .navlist {
-        flex-direction: row;
-
-    }
-
-    ul {
-        flex-direction: row;
-        align-items: flex-start;
-    }
-
-    li {
-        margin: 0px 10px 0px;
-    }
-}
-
-span {
-    color: red;
-}
-
-.content {
-   display: flex;
-   flex-direction: column;
-   width:30%;
-   justify-content: center;
-}
-
-.bold{
-    padding-top: 100px;
-    font-weight: 600;
-    font-size: 2em; 
+strong {
+  color: #FF4850;/*Button background color Navigation/button text hover color Word emphasis color: #FF4850*/
+  font-style: none; 
 }
 
 button {
-    background-color: #FF4850;
-    border: none;
-    color: #FFFFFF;
-    font-weight: 400;
-    font-size: 1em;
-    padding: 10px;
-    border-radius: 15px;
-    margin: 10px 0px;
+  padding: 10px; /*Button padding: 10px*/
+  border-radius: 15px; /* border radius of 15px*/ 
+  border-style: none; 
+  background-color: #FF4850; /*Button background color Navigation/button text hover color Word emphasis color: #FF4850*/
+  color: white;
+  font-size: 18px;
+  font-weight: 300; /* Font-weights used: 600, 300, 400 */
+  width: 100%;
+  cursor: pointer; 
 }
 
-/* Media querie */
+button:hover { 
+  background-color: #CCC; /*Button hover background color:#CCC*/
+  color: #FF4850; /*Button background color Navigation/button text hover color Word emphasis color: #FF4850*/
+}
 
-@media (min-width:768px) {
+.logo {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 400; /* Font-weights used: 600, 300, 400 */
+  flex: 1; 
+}
 
-    .navlist {
-        flex-direction: row;
+.logo strong {
+  font-weight: 400; /* Font-weights used: 600, 300, 400 */
+}
 
-    }
+ul { /* The navigation should be created by using a '<ul>'*/
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style: none; 
+  font-size: 18px;
+  margin: 10px 0;
+  padding-left: 0; 
+}
 
-    ul {
-        flex-direction: row;
-        align-items: flex-start;
-    }
+span {
+    color: red; /*Button background color Navigation/button text hover color Word emphasis color: #FF4850*/
+}
 
-    li {
-        margin: 0px 10px 0px;
-    }
+a { 
+  text-decoration: none; /* no underlines on anchor tags */
+  color: #88898B; /*Navigation link color: #88898B/
+  font-weight: 300; /* Font-weights used: 600, 300, 400 */
+}
+
+a:hover { /* hover for anchor tags */
+  color: #FF4850; 
+}
+
+.bold {
+  font-style: none;
+  font-weight: 600; /* Font-weights used: 600, 300, 400 */
+  line-height: 1.5;
+}
+
+.bold strong {
+  font-weight: 600;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.0;
+  color: #88898B; 
+}
+
+/*Media tag to adjust style for desktop mode*/
+@media (min-width: 768px) {
+  body { /*Add background image*/
+    background-image: url(/saintandre-part-one/bulldog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px 50px;
+  }
+
+  header { 
+    flex-direction: row;
+  }
+
+  ul { 
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+
+  li {
+    margin: 0 5px;
+  }
+
+  button { 
+    width: auto;
+  }
+
+  main { 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    width: 45%; 
+    flex: 1;
+  }
+
+  .bold {
+    margin: 0;
+  }
+
+  .cntbtn {
+    padding: 15px 50px; 
+  }
+
+  p { 
+    font-size: 20px;
+    line-height: 1.25;
+  }
 }

@@ -1,0 +1,97 @@
+html {
+    /* background: url("/images/bulldog.jpg") no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #F0ECEE;
+    /* height: 100%; */
+}
+
+#container {
+    /* background-image: url("/images/bulldog.jpg");  */
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    height: 100vh;
+    width: 100%;
+    border: 3px red solid;
+}
+.bulldog{
+    width: 50vw;
+    height: 50vh;
+}
+
+.navlist {
+    list-style-type: none;
+    padding-left: 0;
+    font-weight: 300;
+    font-size: 1.25em;
+    border: 3px rgb(28, 10, 194) solid;
+    background: rgb(146, 183, 238);
+    width: 100%;
+    height: auto;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+li,
+li a,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #88898B;
+    margin: 0px 10px 0px;
+}
+
+.adoptme{
+    font-weight: 400;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+
+/* .content {
+    display: flex;
+    flex-direction: column;
+    border: 3px rgb(235, 212, 11) solid;
+    background: rgb(209, 235, 137);
+} */
+
+/* Media query */
+@media screen and (min-width:768px) {
+    html {
+        /* background: url("/images/bulldog.jpg") no-repeat center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover; */
+        font-family: 'Fira Sans', sans-serif;
+        background-color: #F0ECEE;
+        height: 100%;
+    }
+
+   
+
+    .navlist {
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

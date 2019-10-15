@@ -20,7 +20,8 @@ We are given two option.
 [How To Create Glass Login Form | HTML & CSS | Make Sign In Form Design](https://www.youtube.com/watch?v=evtuuR6Q5DA)  
 [How To Make Login Page Using HTML and CSS Only | Login Form](https://www.youtube.com/watch?v=AzDxbbW4Zj4)  
 [CSS 3D Loft Style Login Form Tutorial](https://www.youtube.com/watch?v=V-J3AWFXIYM)  
-
+[How To Create a Login Form](https://www.w3schools.com/howto/howto_css_login_form.asp)
+[How TO - Social Login Form](https://www.w3schools.com/howto/howto_css_social_login.asp)  
 
 * [ ]
 * [ ]

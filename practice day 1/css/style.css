@@ -1,0 +1,23 @@
+h1{
+    color:rgb(231, 24, 24);
+}
+.P2{
+    color:blue;
+    background-color:gray; 
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+.P1{
+    color:green;
+   background-color: coral;
+   font-style: italic;
+   font-size: 2em;
+   font-family: cursive;
+}
+.P3{
+    color:rgb(124, 98, 49);
+    background-color: rgb(19, 224, 29);
+    font-weight: 900;
+}
+li{
+    list-style: none;
+}

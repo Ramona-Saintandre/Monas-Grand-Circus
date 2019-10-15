@@ -10,4 +10,13 @@ We are given two option.
 ## what will we learn 
 
 ## Resources Used for these projects 
+---------------
 
+* [ ]
+* [ ]
+* [ ]
+* [ ]
+* [ ]
+* [ ]
+* [ ]
+* [ ]

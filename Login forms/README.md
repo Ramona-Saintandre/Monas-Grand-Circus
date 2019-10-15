@@ -5,7 +5,7 @@ The object of this exercise is create a login form from the picture that has bee
 
 We are given two option. 
 
-![](images/simpleloginform.gif)
+![ ](images/simple-login-form.gif)
 
 ## what will we learn 
 

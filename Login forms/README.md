@@ -8,9 +8,9 @@ We are given two option.
 ![ ](images/simple-login-form.gif)
 ![ ](images/simple-login-form2.gif)
 
-## what will we learn 
+## *what will we learn* 
 
-## Resources Used for these projects 
+## *Resources Used for these projects* 
 ---------------
 
 * [ ]
@@ -21,3 +21,6 @@ We are given two option.
 * [ ]
 * [ ]
 * [ ]
+
+
+## *Issues and challenges that I had with this project*

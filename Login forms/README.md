@@ -23,7 +23,10 @@ We are given two option.
 [How To Make Login Page Using HTML and CSS Only | Login Form](https://www.youtube.com/watch?v=AzDxbbW4Zj4)  
 [CSS 3D Loft Style Login Form Tutorial](https://www.youtube.com/watch?v=V-J3AWFXIYM)  
 [How To Create a Login Form](https://www.w3schools.com/howto/howto_css_login_form.asp)
-[How TO - Social Login Form](https://www.w3schools.com/howto/howto_css_social_login.asp)  
+[How TO - Social Login Form](https://www.w3schools.com/howto/howto_css_social_login.asp) 
+
+[HTML Forms - Learn 18 HTML Input Types | HTML5](https://www.youtube.com/watch?v=MKSQYsLLFEo)  
+
 **Forms**
 
 [HTML forms](https://www.w3schools.com/html/html_forms.asp)  

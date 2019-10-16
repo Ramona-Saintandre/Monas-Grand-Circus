@@ -11,6 +11,8 @@ We are given two option.
 
 ## *Resources Used for these projects* 
 ---------------
+
+**Videos**  
 [How To Create Login Form In HTML and CSS](https://www.youtube.com/watch?v=p30Zl8yHRA8)  
 [Transparent Login Form :: HTML & CSS ONLY](https://www.youtube.com/watch?v=X9Eh7_FUYzw)  
 [How to make a Login Form in HTML and CSS](https://www.youtube.com/watch?v=gmqd3Pl5bHk)  
@@ -22,15 +24,15 @@ We are given two option.
 [CSS 3D Loft Style Login Form Tutorial](https://www.youtube.com/watch?v=V-J3AWFXIYM)  
 [How To Create a Login Form](https://www.w3schools.com/howto/howto_css_login_form.asp)
 [How TO - Social Login Form](https://www.w3schools.com/howto/howto_css_social_login.asp)  
+**Forms**
 
-* [x]
-* [ ]
-* [ ]
-* [ ]
-* [ ]
-* [ ]
-* [ ]
-* [ ]
+[HTML forms](https://www.w3schools.com/html/html_forms.asp)  
+
+[`<input type="email">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email)  
+
+[`<input type="password">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/password)
+
+[Bootstrap Forms- form-control](https://www.w3schools.com/Bootstrap/bootstrap_forms.asp)
 
 
 ## *Issues and challenges that I had with this project*

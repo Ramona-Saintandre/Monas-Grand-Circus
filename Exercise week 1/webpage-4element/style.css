@@ -1,7 +1,34 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
 }
-.header{
-  background-color: rgb(65, 53, 175);  
+
+body {
+    height: 200vh;
+}
+
+.header {
+    width: 100%;
+    background-color: rgb(65, 53, 175);
+    position: fixed;
+}
+p{
+ position: absolute;
+ bottom:0;
+ top:0;
+
+}
+.container {
+    width: 500px;
+    height: 700px;
+    border:1px solid black;
+
+}
+
+.img {
+
+     border: 1px solid #ddd;
+     border-radius: 4px;
+     padding: 5px;
+     width: 150px;
 }

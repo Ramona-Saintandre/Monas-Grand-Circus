@@ -5,30 +5,33 @@
 
 body {
     height: 200vh;
+    padding-top: 10%;
 }
 
-.header {
+header {
     width: 100%;
     background-color: rgb(65, 53, 175);
     position: fixed;
 }
-p{
- position: absolute;
- bottom:0;
- top:0;
 
+p {
+    position: absolute;
+    bottom: 0;
+    right: 150px;
 }
+
 .container {
+    position: relative;
     width: 500px;
     height: 700px;
-    border:1px solid black;
+    border: 1px solid black;
 
 }
 
 img {
-
-     border: 1px solid #ddd;
-     border-radius: 4px;
-     padding: 5px;
-     width: 150px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    position: static;
 }

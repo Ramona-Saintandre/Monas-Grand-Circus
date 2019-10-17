@@ -1,14 +1,28 @@
 body{
     background-color: rgb(241, 120, 120);
 }
+main{
+   background-color: rgb(224, 221, 221);  display:flex;    
+}
 input{
     display: flex;
     flex-direction: column;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    justify-content: center;
     width: 50%;
-    
-
 }
+
 h2{
     text-align: center;
+}
+button{
+    display: flex;
+    align-content: center;
+    background-color: teal;
+    width:6rem;
+    height: 2rem;
+    text-align: center;
+}
+checkbox{
+    display: flex;
 }

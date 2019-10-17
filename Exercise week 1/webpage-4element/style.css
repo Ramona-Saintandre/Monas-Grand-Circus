@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    @import url(https://fonts.googleapis.com/css?family=Darker+Grotesque:300,regular,500,600,700,800,900);
 }
 
 body {
@@ -18,8 +19,12 @@ header {
 p {
     
     position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
     bottom: 0;
     left: 350px;
+    font-family:;
 }
 
 .container {
@@ -28,7 +33,7 @@ p {
     height: 700px;
     border: 1px solid black;
     border-radius: 34px;
-    box-shadow:10px 15px rgb(98, 58, 207);
+    box-shadow:10px 15px
 }
 
 img {
@@ -39,7 +44,7 @@ img {
     max-width: 100%;
     height: auto;
     position: static;
-    box-shadow: 5px 10px rgb(209, 71, 20);
+    box-shadow: 5px 10px rgb(9, 22, 202);
 
 
 }

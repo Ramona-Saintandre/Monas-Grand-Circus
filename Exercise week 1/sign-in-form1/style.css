@@ -1,15 +1,20 @@
-* main,body{
-    margin:0;
-}
-body{
-    background-color: rgb(241, 120, 120);
-}
-main{
-   background-color: rgb(224, 221, 221);  display:flex; 
-   padding:5px 50px 15px 50px;   
+* main,
+body {
+    margin: 0;
 }
 
-input{
+body {
+    background-color: rgb(241, 120, 120);
+    
+}
+
+main {
+    background-color: rgb(224, 221, 221);
+    display: flex;
+   
+}
+
+input {
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -18,18 +23,20 @@ input{
     margin-bottom: 15px;
 }
 
-h2{
+h2 {
     text-align: center;
 }
-button{
+
+button {
     display: flex;
-   align-items: center;
-   padding:0px 0px 0px 5px;
+    align-items: center;
+    padding: 0px 0px 0px 5px;
     background-color: teal;
-    width:6rem;
+    width: 6rem;
     height: 2rem;
     text-align: center;
 }
-checkbox{
+
+checkbox {
     display: flex;
 }

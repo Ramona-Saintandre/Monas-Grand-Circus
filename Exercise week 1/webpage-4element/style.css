@@ -10,6 +10,7 @@ body {
 
 header {
     width: 100%;
+    height: 10%;
     background-color: rgb(65, 53, 175);
     position: fixed;
 }
@@ -17,7 +18,7 @@ header {
 p {
     position: absolute;
     bottom: 0;
-    right: 150px;
+    left: 350px;
 }
 
 .container {
@@ -31,7 +32,10 @@ p {
 img {
     border: 1px solid #ddd;
     border-radius: 4px;
-    padding: 5px;
-    width: 150px;
-    position: static;
+    padding-top: 50px;
+     max-width: 100%;
+     height: auto;
+    position:static;
+   
+    
 }

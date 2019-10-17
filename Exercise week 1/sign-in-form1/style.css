@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(241, 120, 120);
+}
+input{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    width: 50%;
+    
+
+}
+h2{
+    text-align: center;
+}

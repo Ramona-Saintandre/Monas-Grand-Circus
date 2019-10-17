@@ -5,12 +5,20 @@ body {
 
 body {
     background-color: rgb(241, 120, 120);
-    
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     width: 100vw;
 }
 
-main {
+.loginform {
     background-color: rgb(224, 221, 221);
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 700px;
    
 }
 
@@ -27,16 +35,20 @@ h2 {
     text-align: center;
 }
 
-button {
-    display: flex;
-    align-items: center;
+.login-btn {
+    display: flex;    
     padding: 0px 0px 0px 5px;
     background-color: teal;
+    justify-content: center;
+    align-items: center;
     width: 6rem;
-    height: 2rem;
-    text-align: center;
+    height: 2rem;    
+    
 }
 
-checkbox {
+.checkbox {
     display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    justify-content: flex-start;
 }

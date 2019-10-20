@@ -86,6 +86,10 @@ button {
     padding: .5rem;
     font-size: .7rem;
     border-radius: 15px;
+  
+}
+.scrollbtn{
+    margin-top: 2rem;
 }
 
 button:hover {

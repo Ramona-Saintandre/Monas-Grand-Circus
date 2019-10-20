@@ -13,6 +13,7 @@ nav{
 display: flex;
 flex-direction: column;
 padding-bottom: 15px;
+margin-left:75px;
 }
 .container{
     display: flex;

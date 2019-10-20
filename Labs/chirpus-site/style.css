@@ -1,36 +1,52 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
- background-color: #f9fafc;
- box-sizing: border-box;
+    background-color: #f9fafc;
+    box-sizing: border-box;
 }
-/* Need to figure out how to align NB better */
-nav{
-display: flex;
-flex-direction: column;
-padding-bottom: 15px;
 
-/* margin-left:60px; */
-}
-.container{
+/* Need to figure out how to align NB better */
+nav {
     display: flex;
     flex-direction: column;
-    margin:0 auto;
-    color:#69696a;
-    width: 75%;
- 
+    padding-bottom: 15px;
+
+    /* margin-left:60px; */
 }
-p{
-    padding-top:5%;
-    padding-bottom: 5%;
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    color: #69696a;
+    width: 75%;
+   
+     
+
+}
+
+p {    
+    padding-bottom: 5%;    
+   margin-right:90px;    
     align-content: center;
     justify-content: center;
+      
 }
+
+.pline {
+   
+    border-left: 10px solid #69696a;  
+    border-left-width:thick;   
+    margin-right:15px;
+    
+}
+
 ul {
     list-style-type: none;
     font-size: 10px;
@@ -42,33 +58,36 @@ ul {
     word-spacing: 5px;
     text-decoration: none;
 }
-li{
-text-decoration: none;
-list-style: none;
+
+li {
+    text-decoration: none;
+    list-style: none;
 }
 
-h2{
+h2 {
     font-size: 15px;
     margin-top: 10px;
     color: black;
 }
 
-a{
+a {
     text-decoration: none;
-    color:#69696a;
-}
-a:hover{
-    color:#6b6b83;
+    color: #69696a;
 }
 
-button{
-background-color: #000;
-color: #fff;
-/* width: auto; */
-padding: .5rem;
-font-size: .7rem;
-border-radius: 15px;
+a:hover {
+    color: #6b6b83;
 }
-button:hover{
-    color:#6b6b83;
+
+button {
+    background-color: #000;
+    color: #fff;
+    /* width: auto; */
+    padding: .5rem;
+    font-size: .7rem;
+    border-radius: 15px;
+}
+
+button:hover {
+    color: #6b6b83;
 }

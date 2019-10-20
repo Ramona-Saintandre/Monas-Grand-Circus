@@ -8,8 +8,10 @@ body{
  background-color: #f9fafc;
 }
 nav{
-
+display: flex;
+flex-direction: column;
 }
+
 ul {
     list-style-type: none;
     font-size: 10px;

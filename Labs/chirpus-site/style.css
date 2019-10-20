@@ -69,3 +69,6 @@ padding: .5rem;
 font-size: .7rem;
 border-radius: 15px;
 }
+button:hover{
+    color:#6b6b83;
+}

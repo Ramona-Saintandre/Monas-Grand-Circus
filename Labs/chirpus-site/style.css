@@ -61,10 +61,10 @@ a:hover{
 button{
 background-color: #000;
 color: #fff;
-width: auto;
+/* width: auto; */
 padding: .5rem;
 font-size: .7rem;
-border-radius: 10%;
+border-radius: 15px;
 
 
 }

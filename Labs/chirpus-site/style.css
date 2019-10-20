@@ -36,6 +36,7 @@ nav {
       margin-right:90px;    
     align-content: center;
     justify-content: center;
+    
       
 }
 
@@ -86,12 +87,15 @@ button {
     padding: .5rem;
     font-size: .7rem;
     border-radius: 15px;
+    border:none;
   
 }
-.scrollbtn{
+.scrollbtn {
     margin-top: 2rem;
 }
-
+.hireUs{
+    margin-bottom: 2rem;
+}
 button:hover {
     color: #6b6b83;
 }

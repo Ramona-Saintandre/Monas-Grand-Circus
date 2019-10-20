@@ -13,7 +13,11 @@ nav{
 display: flex;
 flex-direction: column;
 }
-
+.container{
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+}
 ul {
     list-style-type: none;
     font-size: 10px;

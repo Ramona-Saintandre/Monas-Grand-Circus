@@ -31,19 +31,18 @@ nav {
 
 }
 
-p {    
-    padding-bottom: 5%;    
-   margin-right:90px;    
+.lorem {    
+    padding:.5em 0em 1.2rem 1em;
+      margin-right:90px;    
     align-content: center;
     justify-content: center;
       
 }
 
-.pline {
-   
-    border-left: 10px solid #69696a;  
-    border-left-width:thick;   
-    margin-right:15px;
+.pline {   
+    border-left: 5px solid #69696a;  
+    border-left-width:thick; 
+      
     
 }
 
@@ -68,6 +67,7 @@ h2 {
     font-size: 15px;
     margin-top: 10px;
     color: black;
+    padding-top:.8rem;
 }
 
 a {

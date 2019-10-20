@@ -44,3 +44,12 @@ description of each test.
 edges as shown).
 11. “Hire Us” and “Scroll Down” text is centered.
 12. Lorem, ipsum paragraph has the gray (#69696a) vertical bar on left.
+
+## Resources used
+________
+[How TO - Google Fonts](https://www.w3schools.com/howto/howto_google_fonts.asp)
+
+[Using Google Fonts](http://allwebco-templates.com/support/S-fonts-google-fonts.htm)  
+
+[How to use Google Fonts in your next web design project](https://www.freecodecamp.org/news/how-to-use-google-fonts-in-your-next-web-design-project-e1ad48f1adfa/)  
+

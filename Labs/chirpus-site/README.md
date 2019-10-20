@@ -53,3 +53,6 @@ ________
 
 [How to use Google Fonts in your next web design project](https://www.freecodecamp.org/news/how-to-use-google-fonts-in-your-next-web-design-project-e1ad48f1adfa/)  
 
+
+**notes for the border on the paragraph - Thanks to Spencer Morris**  
+[CSS border-left Property](https://www.w3schools.com/cssref/pr_border-left.asp)

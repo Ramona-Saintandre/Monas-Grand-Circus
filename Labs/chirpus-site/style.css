@@ -3,9 +3,9 @@
     margin: 0;
     padding: 0;
 }
+/* Need to figure out how to add Google fonts */
 body{
- font-family: open sans,
- sans serif;
+ /* font-family: "" */
  background-color: #f9fafc;
  box-sizing: border-box;
 }

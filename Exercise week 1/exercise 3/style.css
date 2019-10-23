@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display:flex;
+border:1px solid purple;
+}
+header ul{
+display: flex;
+}
+header li{
+border:1px solid purple;
+}
+main{
+border:1px solid purple;
+}
+section{
+    display:flex;
+border:1px solid purple;
+}
+
+.sidebar{
+    display:flex;
+border:1px solid purple;
+}
+footer{
+    display:flex;
+    flex-direction: row;
+border:1px solid purple;
+}
+footer ul{
+}
+
+ footer li{
+     display:flex;
+border:1px solid purple;
+ }
+ a{
+
+ }

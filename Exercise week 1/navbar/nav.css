@@ -22,6 +22,7 @@ header::after {
 
 h1 {
     float: left;
+    padding: 10px 0;
 }
 
 nav {
@@ -38,9 +39,11 @@ nav li {
     display: inline-block;
     margin-left: 70px;
     padding-top: 25px;
-    color: rgba(255, 255, 255, 0.8);
-    
-
+    color: rgba(255, 255, 255, 0.8);   
+}
+nav a{
+  text-decoration: none;
+ 
 }
 
 /* *{

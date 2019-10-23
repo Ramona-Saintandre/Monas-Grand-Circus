@@ -11,6 +11,7 @@ display: flex;
 }
 header li{
 border:1px solid purple;
+list-style: none;
 }
 main{
 border:1px solid purple;
@@ -35,7 +36,8 @@ footer ul{
  footer li{
      display:flex;
 border:1px solid purple;
+list-style: none;
  }
  a{
-
+text-decoration: none;
  }

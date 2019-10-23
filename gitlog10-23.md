@@ -1,3 +1,4 @@
+### ***Need to figure out out how to clean up a dirty file***  
 Looking for git in: C:\Program Files\Git\cmd\git.exe
 Using git 2.18.0.windows.1 from C:\Program Files\Git\cmd\git.exe
 > git rev-parse --show-toplevel

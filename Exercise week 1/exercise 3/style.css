@@ -1,12 +1,19 @@
 *{
+    border: 2x solid purple;
     margin: 0;
     padding: 0;
     border: none;
 }
+html, body{
+   margin: 0;
+   padding: 0;
+   border: none;
+}
 body{
+    height: 100vh;  
     display: flex;
     flex-direction: column;
-}
+    }
 
 header{
     padding-top: 10px;
@@ -14,43 +21,41 @@ header{
 border:1px solid purple;
 }
 
+header>nav{
+    display: flex;
+    border: 0;
+}
+header>nav>.title{
+    flex:1;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+}
+
+section {
+   flex: 3;
+}
+
 h1{
     display: flex;
     border:1px solid purple;
 }
-
-header ul{
-display: flex;
-}
-
-header li{
-border:1px solid purple;
-list-style: none;
-}
-
-main{
-border:1px solid purple;
-flex-grow:1;
-}
-
-
-section{
-    flex-direction: column;
-    display:flex;
-border:1px solid purple;
-}
-
 .sidebar{
-    display:flex;
-    flex-direction: column;
-border:1px solid purple;
+    flex:3;
 }
 footer{
     display:flex;
-    flex-direction: row;
-border:1px solid purple;
+ }
+
+footer .copywright{
+    flex:1;
 }
-footer ul{
+footer a{
+    margin: 12px;
 }
 
  footer li{
@@ -58,6 +63,4 @@ footer ul{
 border:1px solid purple;
 list-style: none;
  }
- a{
-text-decoration: none;
- }
+ 

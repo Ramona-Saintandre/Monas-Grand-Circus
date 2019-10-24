@@ -16,18 +16,19 @@ body {
 }
 
 
-header{
+header {
     padding-top: 10px;
-    display:flex;
-border:1px solid purple;
+    display: flex;
+    border: 1px solid purple;
 }
 
-header>nav{
+header>nav {
     display: flex;
     border: 0;
 }
-header>nav>.title{
-    flex:1;
+
+header>nav>.title {
+    flex: 1;
     font-size: 2rem;
     font-weight: bold;
 }
@@ -38,30 +39,32 @@ main {
 }
 
 section {
-   flex: 3;
+    flex: 3;
 }
 
-h1{
+h1 {
     display: flex;
-    border:1px solid purple;
+    border: 1px solid purple;
 }
-.sidebar{
-    flex:3;
-}
-footer{
-    display:flex;
- }
 
-footer .copywright{
-    flex:1;
+.sidebar {
+    flex: 3;
 }
-footer a{
+
+footer {
+    display: flex;
+}
+
+footer .copywright {
+    flex: 1;
+}
+
+footer a {
     margin: 12px;
 }
 
- footer li{
-     display:flex;
-border:1px solid purple;
-list-style: none;
- }
- 
+footer li {
+    display: flex;
+    border: 1px solid purple;
+    list-style: none;
+}

@@ -1,7 +1,8 @@
-body {
+body,html {
     margin: 0;
     font-family: 'Lato', sans-serif;
-    background-color: 
+    border:2px solid green;
+  
 }
 
 .container {
@@ -10,6 +11,8 @@ body {
 }
 
 header {
+    display: flex;
+    flex-direction:row-reverse;
     background-color: #551a8b;
     color: rgba(255, 255, 255, 0.8);
 }
@@ -28,6 +31,7 @@ h1 {
 }
 
 nav {
+    display:flex;    
     float: right;
 }
 
@@ -37,7 +41,7 @@ nav ul {
     padding: 0;
 }
 
-nav li {
+nav a {
     display: inline-block;
     margin-left: 70px;
     padding-top: 25px;
@@ -47,15 +51,14 @@ nav a{
   text-decoration: none;
   cursor: pointer;
   color: rgba(255, 255, 255, 0.8);
- 
-}
+ }
 
 
 /* media queries */
 
 /* small */
 @media screen only (min-width 1200px) {
-    
+
 }
 
 /* medium */

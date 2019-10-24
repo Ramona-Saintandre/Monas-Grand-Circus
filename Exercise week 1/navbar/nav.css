@@ -10,9 +10,7 @@ body,html {
     margin: 0 auto;
 }
 
-header {
-    display: flex;
-    flex-direction:row-reverse;
+header {   
     background-color: #551a8b;
     color: rgba(255, 255, 255, 0.8);
 }
@@ -26,24 +24,20 @@ header::after {
 }
 
 h1 {
-    float: left;
+    
     padding: 10px 0;
 }
 
 nav {
     display:flex;    
-    float: right;
-}
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 nav a {
-    display: inline-block;
-    margin-left: 70px;
+    display: flex;
+    flex-direction: row-reverse;
+    /* margin-left: 70px; */
     padding-top: 25px;
     color: rgba(255, 255, 255, 0.8);   
 }
@@ -55,9 +49,10 @@ nav a{
 
 
 /* media queries */
+/* Desktop stuff goes into media queries */
 
 /* small */
-@media screen only (min-width 1200px) {
+/* @media screen only (min-width 1200px) {
 
 }
 
@@ -68,4 +63,4 @@ nav a{
  /* large */
 @media screen only (min-width 1200px) {
 
-}
+} */

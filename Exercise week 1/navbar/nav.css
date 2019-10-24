@@ -2,17 +2,20 @@ body,html {
     margin: 0;
     font-family: 'Lato', sans-serif;
     border:2px solid green;
-  
-}
+  }
 
 .container {
     width: 80%;
+    /* height: 100vh; */
     margin: 0 auto;
 }
 
 header {   
     background-color: #551a8b;
     color: rgba(255, 255, 255, 0.8);
+}
+main{
+    margin: 10px;
 }
 
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/::after */
@@ -23,10 +26,10 @@ header::after {
     clear: both;
 }
 
-h1 {
+/* h1 {
     
     padding: 10px 0;
-}
+} */
 
 nav {
     display:flex;    
@@ -38,7 +41,7 @@ nav a {
     display: flex;
     flex-direction: row-reverse;
     /* margin-left: 70px; */
-    padding-top: 25px;
+    padding-top: 5px;
     color: rgba(255, 255, 255, 0.8);   
 }
 nav a{

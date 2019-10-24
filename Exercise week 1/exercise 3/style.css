@@ -53,13 +53,14 @@ section {
     background-color: #e6dada;
 }
 
-
 .sidebar {
     flex: 1;
+    background-color: #fff6f6;
 }
 
 footer {
     display:none;
+    background-color: rgb(128, 120, 120);
 }
 
 footer .copywright {

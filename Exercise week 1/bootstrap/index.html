@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+        integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <title>BootStrap Exercise</title>
+</head>
+
+<body>
+    <section class="resume-section p-4 p-lg-5 text-center" id="contact">
+        <div class="my-auto">
+            <h2 class="mb-4">
+                Anomar Designs
+            </h2>
+            <img src="/Exercise week 1/bootstrap/anomar logo (Ramona Saintandre's Copy) (Ramona Saintandre's Copy) (Ramona Saintandre's Copy) (Ramona Saintandre's Copy).jpg"
+                class="img-fluid" alt="Responsive image"><br><br>
+            <ul class="fa-ul mb-4 ml-0">
+                <li id="mail-address">
+                    <i class="fas fa-envelope-open mr-2 contact-icons"></i>codinggrandma@gmail.com</a>
+                </li>
+                <li>
+                    <i class="fas fa-mobile-alt mr-2 contact-icons"></i>616-555-5555
+                </li>
+                <li>
+                    <i class="fas fa-map-marker-alt mr-2 contact-icons"></i>Grand Rapids, Mi
+                </li>
+            </ul>
+
+            <!-- second input field -->
+            <p>
+                Please provide your contact information and I will be back with you as soon as possible
+            </p>
+
+            <form class="contact-form d-flex flex-column align-items-center"
+                action="https://formspree.io/youremail@mail.com" method="POST">
+                <div class="form-group w-75">
+                    <input type="name" class="form-control" placeholder="Name" name="name" required />
+                </div>
+                <div class="form-group w-75">
+                    <input type="email" class="form-control" placeholder="Email" name="name" required />
+                </div>
+
+                <!-- date picker cheat -->
+                <p>Best day to reach you</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                        value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">
+                        Mon
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                        value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        Tues
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                        value="option3" checked>
+                    <label class="form-check-label" for="exampleRadios1">
+                         Wed
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                        value="option4">
+                    <label class="form-check-label" for="exampleRadios2">
+                        Thur
+                    </label>
+                </div>
+                 <div class="form-check">
+                     <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                         value="option5" checked>
+                     <label class="form-check-label" for="exampleRadios1">
+                         Frid
+                     </label>
+                 </div>
+                 <div class="form-check">
+                     <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                         value="option6">
+                     <label class="form-check-label" for="exampleRadios2">
+                        Satd
+                     </label>
+                 </div>
+                <br><br>
+                <!-- radio buttons - best time  -->
+                <p> Best time to reach you </p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                        value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">
+                        Daytime
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                        value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        Evening
+                    </label>
+                </div><br><br>
+
+
+
+                <!-- Submit button -->
+
+                <button type="submit" class="btn btn-submit btn-info w-75">Submit</button>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

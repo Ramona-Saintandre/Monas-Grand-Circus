@@ -41,3 +41,13 @@ page. (you don’t have to use them all)
 desktop and for mobile.  
 10. Use a combination of position, top, right, bottom, and left to position the “Scroll Down”
 button on the page. (you don’t have to use them all)  
+
+## Resources
+
+[SVG: svg, circle: Overlap Colored Circles at 50% Opacity](https://medium.com/@nick3499/svg-svg-circle-overlapping-colored-circles-at-50-opacity-b48f892c9ba8)  
+[Smiley HTML Canvas Tutorial | Part 2: Circles and Ellipses](https://www.youtube.com/watch?v=78NyTc40Xgo)  
+[Create animated circles with HTML&CSS](https://barmejpro.com/create-animated-circles-with-htmlcss/)  
+[How to draw circles like this](https://stackoverflow.com/questions/53867382/how-to-draw-circles-using-html-and-css-like-this/53867457)  
+[Creating Circles Using HTML/CSS](https://www.kirupa.com/html5/creating_circles_using_html_css.htm)
+[Bootstrap 4 .rounded-circle class](https://www.tutorialspoint.com/Bootstrap-4-rounded-circle-class)  
+

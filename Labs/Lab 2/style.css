@@ -111,6 +111,13 @@ button:hover {
  /* Media Query */
  /*  Write a media query using min-width syntax to change styles at 768px */
 
+ @media only screen and (min-width: 768px){
+
+    nav{
+        display:flex;
+        padding: 0 50px 0 10px;
+            }
+}
 
  /* Flex properties are used to change the layout of the navigation from column to row */
 

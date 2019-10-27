@@ -3,7 +3,6 @@
 * {
     margin: 0;
     padding: 0;
-    border:2px solid blueviolet;
 }
 
 body {
@@ -21,19 +20,17 @@ nav {
     /* margin-left:60px; */
 }
 
-.navContainer {
+.mainContainer {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     color: #69696a;
-    width: auto;
+    width: 75%;
 }
 
 /* The lorem ipsum section takes up half the width of the page. */
 
 .lorem {
-    display: flex;
-    flex:1;
     padding: .5em 0em 1.2rem 1em;
     margin-right: 90px;
     align-content: center;
@@ -42,8 +39,6 @@ nav {
 }
 
 .pline {
-    display: flex;
-    
     border-left: 5px solid #69696a;
     border-left-width: thick;
 }
@@ -72,7 +67,7 @@ h2 {
     margin-top: 10px;
     color: black;
     padding-top: .8rem;
-    width: 5rem;
+    width: 25px;
     background-color: rgb(18, 43, 187);
 
 }
@@ -87,7 +82,6 @@ a:hover {
 }
 
 button {
-    display: flex;
     background-color: #000;
     color: #fff;
     /* width: auto; */
@@ -117,7 +111,7 @@ button:hover {
 /* Media Query */
 /*  Write a media query using min-width syntax to change styles at 768px */
 
-/* @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
 
     nav {
         display: flex;
@@ -142,31 +136,7 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-} */
-/* button {
-    background-color: #000;
-    color: #fff;
-    width: 5rem;
-    padding: .5rem;
-    font-size: .7rem;
-    border-radius: 15px;
-    border: none;
-
 }
-
-.scrollbtn {
-    margin-top: 2rem;
-    align-items: center;
-}
-
-.hireUs {
-    margin-bottom: 2rem;
-    
-}
-
-button:hover {
-    color: #6b6b83;
-} */
 /* Flex properties are used to change the layout of the navigation from column to row */
 
 /* circles */

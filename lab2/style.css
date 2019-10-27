@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    border:2px solid blue;
+    border:2px solid red;
 }
 
 body {
@@ -32,20 +32,18 @@ nav {
 
 }
 
-.lorem {    
+/* .lorem {    
     padding:.5em 0em 1.2rem 1em;
       margin-right:90px;    
     align-content: center;
     justify-content: center;
     
       
-}
+} */
 
-.pline {   
-    border-left: 5px solid #69696a;  
-    border-left-width:thick; 
-      
-    
+p {
+    border-left: 5px solid#69696a;
+    padding-left: 15px;
 }
 
 ul {

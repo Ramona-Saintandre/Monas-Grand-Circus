@@ -9,7 +9,8 @@
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f9fafc;
-    /* box-sizing: border-box; */
+    border:5px solid rgb(25, 9, 240);
+    box-sizing: border-box;
 }
 
 /* Need to figure out how to align NB better */
@@ -17,29 +18,9 @@ nav {
     display: flex;
     flex-direction: column;
     padding-bottom: 15px;
-
+    border:5px solid rgb(151, 11, 179);
     /* margin-left:60px; */
 }
-
-.container {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    color: #69696a;
-    width: 75%;
-   
-     
-
-}
-
-/* .lorem {    
-    padding:.5em 0em 1.2rem 1em;
-      margin-right:90px;    
-    align-content: center;
-    justify-content: center;
-    
-      
-} */
 
 p {
     border-left: 5px solid#69696a;
@@ -81,8 +62,7 @@ a:hover {
 
 button {
     background-color: #000;
-    color: #fff;
-    /* width: auto; */
+    color: #fff;   
     padding: .5rem;
     font-size: .7rem;
     border-radius: 15px;

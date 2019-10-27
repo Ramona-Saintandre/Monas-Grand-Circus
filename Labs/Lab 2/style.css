@@ -31,6 +31,8 @@ nav {
 
 }
 
+/* The lorem ipsum section takes up half the width of the page. */
+
 .lorem {    
     padding:.5em 0em 1.2rem 1em;
       margin-right:90px;    
@@ -63,6 +65,8 @@ li {
     text-decoration: none;
     list-style: none;
 }
+
+ /* A flex property is used to separate “chirpus inc” and the navigation items. */
 
 h2 {
     font-size: 15px;
@@ -99,3 +103,28 @@ button {
 button:hover {
     color: #6b6b83;
 }
+
+
+
+
+
+ /* Media Query */
+ /*  Write a media query using min-width syntax to change styles at 768px */
+
+
+ /* Flex properties are used to change the layout of the navigation from column to row */
+
+ /* circles */
+ /* Use a combination of position, top, right, bottom, and left to position the circles on the page. */
+  /* Circles have fixed widths and heights. */
+
+
+
+/* small */
+/*  Use rgba(207, 130, 213, 0.6) for the smallest circle  */
+
+/* medium */
+/*  Use rgba(247, 193, 162, 0.7) for the medium-sized circle. */
+
+/* large */
+ /*  Use rgba(247, 136, 167, 0.6) for the largest circle. */

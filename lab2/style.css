@@ -3,12 +3,15 @@
 * {
     margin: 0;
     padding: 0;
+    border:2px solid blue;
 }
 
 body {
+    display: flex;
     font-family: 'Open Sans', sans-serif;
     background-color: #f9fafc;
     box-sizing: border-box;
+    border:2px solid blue;
 }
 
 /* Need to figure out how to align NB better */
@@ -16,6 +19,7 @@ nav {
     display: flex;
     flex-direction: column;
     padding-bottom: 15px;
+    background-color: blueviolet;
 
     /* margin-left:60px; */
 }

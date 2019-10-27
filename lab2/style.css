@@ -6,11 +6,10 @@
     border:2px solid blue;
 }
 
-body {    
+body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f9fafc;
     box-sizing: border-box;
-  
 }
 
 /* Need to figure out how to align NB better */
@@ -18,32 +17,35 @@ nav {
     display: flex;
     flex-direction: column;
     padding-bottom: 15px;
-    
 
     /* margin-left:60px; */
 }
 
-.mainContainer {
+.container {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     color: #69696a;
     width: 75%;
+   
+     
+
 }
 
-/* The lorem ipsum section takes up half the width of the page. */
-
-.lorem {
-    padding: .5em 0em 1.2rem 1em;
-    margin-right: 90px;
+.lorem {    
+    padding:.5em 0em 1.2rem 1em;
+      margin-right:90px;    
     align-content: center;
     justify-content: center;
-    background-color: aqua;
+    
+      
 }
 
-.pline {
-    border-left: 5px solid #69696a;
-    border-left-width: thick;
+.pline {   
+    border-left: 5px solid #69696a;  
+    border-left-width:thick; 
+      
+    
 }
 
 ul {
@@ -63,16 +65,11 @@ li {
     list-style: none;
 }
 
-/* A flex property is used to separate “chirpus inc” and the navigation items. */
-
 h2 {
     font-size: 15px;
     margin-top: 10px;
     color: black;
-    padding-top: .8rem;
-    width: 25px;
-    background-color: rgb(18, 43, 187);
-
+    padding-top:.8rem;
 }
 
 a {
@@ -91,68 +88,15 @@ button {
     padding: .5rem;
     font-size: .7rem;
     border-radius: 15px;
-    border: none;
-
+    border:none;
+  
 }
-
 .scrollbtn {
     margin-top: 2rem;
 }
-
-.hireUs {
+.hireUs{
     margin-bottom: 2rem;
 }
-
 button:hover {
     color: #6b6b83;
 }
-
-
-
-
-
-/* Media Query */
-/*  Write a media query using min-width syntax to change styles at 768px */
-
-@media only screen and (min-width: 768px) {
-
-    nav {
-        display: flex;
-        padding: 0 50px 0 10px;
-        background-color: aqua;
-    }
-}
-
-ul {
-    list-style: none;
-}
-
-li {
-    padding: 10px;
-}
-.container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-h1{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-}
-/* Flex properties are used to change the layout of the navigation from column to row */
-
-/* circles */
-/* Use a combination of position, top, right, bottom, and left to position the circles on the page. */
-/* Circles have fixed widths and heights. */
-
-
-
-/* small */
-/*  Use rgba(207, 130, 213, 0.6) for the smallest circle  */
-
-/* medium */
-/*  Use rgba(247, 193, 162, 0.7) for the medium-sized circle. */
-
-/* large */
-/*  Use rgba(247, 136, 167, 0.6) for the largest circle. */

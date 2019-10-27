@@ -9,7 +9,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f9fafc;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 /* Need to figure out how to align NB better */

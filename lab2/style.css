@@ -108,19 +108,19 @@ button:hover {
 /* Media Query */
 
 @media screen and (min-width: 768px) {
-    header { 
+    header {
         /* need to move more to the right next to the button */
         display: flex;
         flex-direction: row;
         justify-content: left;
         padding-bottom: 15px;
-       
+
     }
 
     ul {
         display: flex;
         flex-direction: row;
-        position: fixed;
+        position: absolute;
         padding-top: 1.5rem;
         left: 60%;
         top: 0%;
@@ -130,7 +130,7 @@ button:hover {
     p {
         font-size: 18px;
         width: 50%;
-       
+
     }
 
     /* need this in the right hand corner */
@@ -138,51 +138,53 @@ button:hover {
         position: absolute;
         left: 85%;
         top: 1.5rem;
-        
+
     }
 
     /* Need this at the bottom */
     /* buttons seem to small */
     .scrollbtn {
-        position: absolute;       
+        position: absolute;
         top: 80%;
         left: 45%;
     }
 
+    .circlelarge {
+        background-color: rgba(247, 136, 167, 0.6);
+        height: 150px;
+        width: 150px;
+        border-radius: 150px;
+        position: absolute;
+        bottom: 22rem;
+        left: 52rem;
+    }
+    .circlemedium {
+        background-color: rgba(247, 193, 162, 0.7);
+        height: 130px;
+        width: 130px;
+        border-radius: 130px;
+        position: relative;
+        bottom:10rem;
+        left: 50rem;
+        
+    }
     .circlesmall {
 
         background-color: rgba(207, 130, 213, 0.6);
-        height: 90px;
-        width: 90px;
-        border-radius: 90px;
-        position: absolute;
-        bottom: 47%;
-        left: 83%;
-    }
-
-    .circlemedium {
-        background-color: rgba(247, 193, 162, 0.7);
         height: 110px;
         width: 110px;
         border-radius: 110px;
         position: absolute;
-        bottom: 31%;
+        bottom: 57%;
         left: 80%;
-        
     }
 
-    .circlelarge {
-        background-color: rgba(247, 136, 167, 0.6);
-        height: 130px;
-        width: 130px;
-        border-radius: 130px;
-        position: absolute;
-        bottom: 45%;
-        left: 72%;
-    }
+   
+
+  
 }
-/* large screen */
-@media screen and (min-width: 1200px){
+    /* large screen */
+    /* @media screen and (min-width: 1200px){
   
     .circlesmall {
 
@@ -214,4 +216,4 @@ button:hover {
         bottom: 60%;
         left: 72%;
     }
-}  
+}   */

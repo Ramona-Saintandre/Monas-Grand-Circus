@@ -51,3 +51,7 @@ button on the page. (you don’t have to use them all)
 [Creating Circles Using HTML/CSS](https://www.kirupa.com/html5/creating_circles_using_html_css.htm)
 [Bootstrap 4 .rounded-circle class](https://www.tutorialspoint.com/Bootstrap-4-rounded-circle-class)  
 
+**merging branches*
+
+[Syncing your branch](https://help.github.com/en/desktop/contributing-to-projects/syncing-your-branch)
+[How to Use Git Merge [the Correct Way]](https://dev.to/neshaz/how-to-use-git-merge-the-correctway-25pd)

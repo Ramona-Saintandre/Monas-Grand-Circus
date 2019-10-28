@@ -190,8 +190,8 @@ button:hover {
         width: 100px;
         border-radius: 100px;
         position: absolute;
-        bottom: 65%;
-        left: 83%;
+        bottom: 66%;
+        left: 81%;
     }
 
     .circlemedium {
@@ -200,7 +200,7 @@ button:hover {
         width: 150px;
         border-radius: 150px;
         position: absolute;
-        bottom: 51%;
+        bottom: 52%;
         left: 80%;
     }
 

@@ -156,7 +156,7 @@ button:hover {
         width: 90px;
         border-radius: 90px;
         position: absolute;
-        bottom: 52%;
+        bottom: 47%;
         left: 83%;
     }
 
@@ -166,8 +166,9 @@ button:hover {
         width: 110px;
         border-radius: 110px;
         position: absolute;
-        bottom: 41%;
+        bottom: 31%;
         left: 80%;
+        
     }
 
     .circlelarge {
@@ -176,7 +177,7 @@ button:hover {
         width: 130px;
         border-radius: 130px;
         position: absolute;
-        bottom: 65%;
+        bottom: 45%;
         left: 72%;
     }
 }

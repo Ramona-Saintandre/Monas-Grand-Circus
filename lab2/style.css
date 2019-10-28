@@ -70,6 +70,7 @@ h2 {
     margin-top: 10px;
     color: black;
     padding-top: .8rem;
+    margin-bottom: 20PX;
 }
 
 a {
@@ -113,7 +114,7 @@ button:hover {
         flex-direction: row;
         justify-content: left;
         padding-bottom: 15px;
-        background-color: chocolate;
+       
     }
 
     ul {
@@ -165,7 +166,7 @@ button:hover {
         width: 110px;
         border-radius: 110px;
         position: absolute;
-        bottom: 36%;
+        bottom: 41%;
         left: 80%;
     }
 
@@ -175,7 +176,41 @@ button:hover {
         width: 130px;
         border-radius: 130px;
         position: absolute;
-        bottom: 50%;
+        bottom: 65%;
         left: 72%;
     }
 }
+/* large screen */
+@media screen and (min-width: 1200px){
+  
+    .circlesmall {
+
+        background-color: rgba(207, 130, 213, 0.6);
+        height: 100px;
+        width: 100px;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 65%;
+        left: 83%;
+    }
+
+    .circlemedium {
+        background-color: rgba(247, 193, 162, 0.7);
+        height: 150px;
+        width: 150px;
+        border-radius: 150px;
+        position: absolute;
+        bottom: 51%;
+        left: 80%;
+    }
+
+    .circlelarge {
+        background-color: rgba(247, 136, 167, 0.6);
+        height: 170px;
+        width: 170px;
+        border-radius: 170px;
+        position: absolute;
+        bottom: 60%;
+        left: 72%;
+    }
+}  

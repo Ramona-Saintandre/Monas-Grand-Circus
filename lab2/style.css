@@ -155,28 +155,27 @@ button:hover {
         width: 150px;
         border-radius: 150px;
         position: absolute;
-        bottom: 22rem;
-        left: 52rem;
+        bottom: 36em;
+        left: 78em;
     }
     .circlemedium {
         background-color: rgba(247, 193, 162, 0.7);
         height: 130px;
         width: 130px;
         border-radius: 130px;
-        position: relative;
-        bottom:10rem;
-        left: 50rem;
+        position: absolute;
+        bottom:30em;
+        left: 80em;
         
     }
     .circlesmall {
-
         background-color: rgba(207, 130, 213, 0.6);
         height: 110px;
         width: 110px;
         border-radius: 110px;
         position: absolute;
-        bottom: 57%;
-        left: 80%;
+        bottom: 33em;
+        left: 84em;
     }
 
    

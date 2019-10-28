@@ -105,12 +105,15 @@ button:hover {
 }
 
 /* Media Query */
+
 @media screen and (min-width: 768px) {
-    .head {
+    header { 
+        /* need to move more to the right next to the button */
         display: flex;
         flex-direction: row;
-        justify-content: stretch;
-        padding-bottom: 100px;
+        justify-content: left;
+        padding-bottom: 15px;
+        background-color: chocolate;
     }
 
     ul {
@@ -123,38 +126,50 @@ button:hover {
         align-items: flex-end;
     }
 
-/* need this in the right hand corner */
+    p {
+        font-size: 18px;
+        width: 50%;
+       
+    }
+
+    /* need this in the right hand corner */
     .hireUs {
         position: absolute;
         left: 85%;
         top: 1.5rem;
+        
     }
+
     /* Need this at the bottom */
-    .scrollbtn{
-        position: absolute;
+    /* buttons seem to small */
+    .scrollbtn {
+        position: absolute;       
         top: 80%;
         left: 45%;
-      }
-    .circlesmall{
-        
+    }
+
+    .circlesmall {
+
         background-color: rgba(207, 130, 213, 0.6);
         height: 90px;
         width: 90px;
         border-radius: 90px;
         position: absolute;
-        bottom: 63%;
-        left: 91%;
+        bottom: 52%;
+        left: 83%;
     }
-    .circlemedium{
+
+    .circlemedium {
         background-color: rgba(247, 193, 162, 0.7);
         height: 110px;
         width: 110px;
         border-radius: 110px;
         position: absolute;
-        bottom: 53%;
-        left: 89%;
-    } 
-    .circlelarge{
+        bottom: 36%;
+        left: 80%;
+    }
+
+    .circlelarge {
         background-color: rgba(247, 136, 167, 0.6);
         height: 130px;
         width: 130px;
@@ -162,4 +177,5 @@ button:hover {
         position: absolute;
         bottom: 60%;
         left: 85%;
+    }
 }

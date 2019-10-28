@@ -61,8 +61,8 @@ li {
     list-style-type: none;
     text-align: left;
     padding-left: 0px;
-    font-size: 1rem;    
-    padding:2px;
+    font-size: 1rem;
+    padding: 2px;
 }
 
 h2 {
@@ -102,4 +102,64 @@ button {
 
 button:hover {
     color: #6b6b83;
+}
+
+/* Media Query */
+@media screen and (min-width: 768px) {
+    .head {
+        display: flex;
+        flex-direction: row;
+        justify-content: stretch;
+        padding-bottom: 100px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        padding-top: 1.5rem;
+        left: 60%;
+        top: 0%;
+        align-items: flex-end;
+    }
+
+/* need this in the right hand corner */
+    .hireUs {
+        position: absolute;
+        left: 85%;
+        top: 1.5rem;
+    }
+    /* Need this at the bottom */
+    .scrollbtn{
+        position: absolute;
+        top: 80%;
+        left: 45%;
+      }
+    .circlesmall{
+        
+        background-color: rgba(207, 130, 213, 0.6);
+        height: 90px;
+        width: 90px;
+        border-radius: 90px;
+        position: absolute;
+        bottom: 63%;
+        left: 91%;
+    }
+    .circlemedium{
+        background-color: rgba(247, 193, 162, 0.7);
+        height: 110px;
+        width: 110px;
+        border-radius: 110px;
+        position: absolute;
+        bottom: 53%;
+        left: 89%;
+    } 
+    .circlelarge{
+        background-color: rgba(247, 136, 167, 0.6);
+        height: 130px;
+        width: 130px;
+        border-radius: 130px;
+        position: absolute;
+        bottom: 60%;
+        left: 85%;
 }

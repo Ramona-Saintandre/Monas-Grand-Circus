@@ -151,8 +151,8 @@ button:hover {
         width: 150px;
         border-radius: 150px;
         position: absolute;
-        bottom: 36em;
-        left: 78em;
+        bottom: 26em;
+        left: 52em;
     }
     .circlemedium {
         background-color: rgba(247, 193, 162, 0.7);
@@ -160,8 +160,8 @@ button:hover {
         width: 130px;
         border-radius: 130px;
         position: absolute;
-        bottom:30em;
-        left: 80em;
+        bottom:20em;
+        left: 55em;
         
     }
     .circlesmall {
@@ -170,8 +170,8 @@ button:hover {
         width: 110px;
         border-radius: 110px;
         position: absolute;
-        bottom: 33em;
-        left: 84em;
+        bottom: 24em;
+        left: 58em;
     }
 
    

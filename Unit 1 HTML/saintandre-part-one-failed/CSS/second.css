@@ -1,3 +1,5 @@
+
+
 html {
     font-family: 'Fira Sans', sans-serif;
     background-color: #F0ECEE;
@@ -10,7 +12,7 @@ body {
 
 header {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
     background-color: aqua;
 }
 
@@ -19,7 +21,12 @@ header {
 }
 
 .navlist {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    padding-top: 10px;
 color: #88898B;
+background-color: aqua;
 }
 
 
@@ -43,7 +50,7 @@ a {
     display: inline;
     text-decoration: none;
     color: #88898B;
-    padding: 4px;
+    padding: 10px;
 }
 
 a:hover {
@@ -72,12 +79,15 @@ button:hover {
     justify-content: flex-start;
 }
 
-h1 {
+.logo{
     font-weight: 600;
+    color:black;
+    cursor: pointer;
+    margin-right: auto;
 }
 
 h2 {
-    color: #88898B;
+   
     font-weight: 300;
     }
 

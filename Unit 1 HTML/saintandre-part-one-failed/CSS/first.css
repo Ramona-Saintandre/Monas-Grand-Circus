@@ -1,22 +1,23 @@
 /* first submission failed, starting over from scratch
+/* first submission failed, starting over from scratch */
  *{
     padding: 0;
     margin: 0;
     height: 100%;
-    width: 100%;
-    
+    width: 100%;    
 }
+
  body{
     
     font-family: 'Fira Sans', sans-serif;    
 	font-size: 18px;
  }
 
- Navigation bar 
+ /* Navigation bar  */
 
 .navlist {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-end;
     align-content: center; 
     padding: 10px 0px 0px 0px;
@@ -45,7 +46,7 @@ li a:hover {
 }
 
 #container {
-    background-image: url("/images/bulldog.jpg");
+    background-image: url("../images/bulldog.jpg");
     background-repeat: no-repeat;
     background-size: cover;    
     display: flex;
@@ -77,12 +78,12 @@ button {
     cursor: pointer;
 }
 
- Navigation/button text hover color 
+ /* Navigation/button text hover color  */
 button a:hover {
     color: #ff4850;
 }
 
- Button hover background color: #CCC 
+ /* Button hover background color: #CCC  */
 button:hover {
     background-color: #ccc;
 }
@@ -108,10 +109,11 @@ span {
     height: 100px;
     width: 300px;
 }
+
 p{
     padding: 25px;
-    height: 100px;
-    width: 300px;  
+    /* height: 100px;
+    width: 300px;   */
 }
 
 
@@ -124,45 +126,32 @@ p{
     padding: 20px;
 }
 
- Media querie 
+ /* Media querie  */
 
-@media only screen and (min-width:768px) {
-     .navlist {        
+ @media screen and (min-width: 768px) {
+    html {
+        background-color: #F0ECEE; 
+    }
+    body {
         display: flex;
-        flex-direction: column;           
-        } 
-
-    ul {
-        flex-direction: column;
-        align-items: center;
+        flex-flow: column;
+        background-image: url(../Images/bulldog.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
     }
 
-    /li {
-        margin: 0px 10px 0px;
-    } 
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
-     #container {
-        background-color: #efebed;
-        padding: 25px 50px;
-    } 
-
-    span {
-        color: red;
+    ul {
+        flex-direction: row;
     }
 
     button {
-        display: flex;
-        flex-direction: column;
-        width: 300px; 
-        height: 10px;       
-        padding: 10px 0px 10px; 
-     
+        width: auto;
     }
-
-     section {
-        display: flex;
-        flex-direction: column;
-        
-    } 
+ }
     
-} */

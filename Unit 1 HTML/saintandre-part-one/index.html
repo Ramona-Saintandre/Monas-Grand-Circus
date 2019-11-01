@@ -4,24 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/saintandre-part-one/css/style.css">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Grand Circus precourse Saintandre part-one</title>
 </head>
 <body>
-    <header>
-        <h1 class="logo"><b>Adopt</b> <span><b>Me</b></span></h1>
-        <ul class="navlist">
-          <li><a href="">About Us</a></li>
-          <li><a href="">What we do</a></li>
-          <li><a href="">Benefits</a></li>
-          <li><a href="">Our Buddies</a></li>
-        </ul>
-        <button>Contact Us</button>
-      </header>
-      <main>
-        <h1 class="bold">Do you think about <span>adopting</span> a friend?</h1>
-        <p>We will help you choose the best buddy that fits your family and home perfectly.</p>
-        <button class="cntbtn">Find out how</button>
-      </main>
-    </body>
-  </html>
+    <div id="container">
+
+        <!-- #main-container>(nav.main-nav>ul>li*5>a>{content$})+(section.main-content>p*2>lorem15) -->
+
+        <nav class="navlist">
+            <!--should there be a header-->
+            <h1 class="logo">Adopt <span class="red">Me</span></h1>
+            <ul>
+
+                <li><a class="navtext" href="#">About Us</a></li>
+                <li><a class="navtext"
+                    href="#">What we do</a></li>
+                <li><a class="navtext"
+                    href="#">Benefits</a></li>
+                <li><a class="navtext"
+                    href="#">Our Buddies</a></li>
+                <li><button class="btn"><a class="navtext" href="#">Contact Us</a></button></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <p><h1 class="red">Do you think about <span> adopting</span> a friend?</h1></p>
+            <p><h2>We will help you choose the best that fits your family and home perfectly.</h2></p>
+
+            <button class="btn"><a href="#">Find out how</a></button>
+
+            <div>
+
+            </div>
+            <!--main-container-->
+</body>
+
+</html>
+
+<!-- @media (min-width:768px) {
+   
+    .navlist{
+        flex-direction:row;         
+    
+    }
+    ul{
+        flex-direction:row;
+        align-items: flex-start;
+    }
+    li{
+        margin:0px 10px 0px;
+    }
+} -->

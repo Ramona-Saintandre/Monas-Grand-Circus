@@ -17,6 +17,43 @@ body {
   display: flex; 
   flex-direction: column;
 }
+html {
+    /* background: url("../images/bulldog.jpg") no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #F0ECEE;
+    /* height: 100%; */
+}
+
+ #container {
+     background-image: url("../images/bulldog.jpg");  
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    height: 100vh;
+    width: 100%;
+    border: 3px red solid;
+} 
+
+.navlist {
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding-left: 0;
+    font-weight: 300;
+    font-size: 1.25em;
+    border: 3px rgb(28, 10, 194) solid;
+    background: rgb(146, 183, 238);
+    width: 100%;
+    height: auto;
 
 header {
   display: flex; /* using flexbox */
@@ -98,43 +135,47 @@ p {
   line-height: 1.0;
   color: #88898B; 
 }
-
-/*Media tag to adjust style for desktop mode*/
-@media (min-width: 768px) {
-  body { /*Add background image*/
-    background-image: url(/saintandre-part-one/bulldog.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 20px 50px;
+a:hover, button:hover{
+    color: #FF4850;
+}
+.logo{
+    font-weight: 400;
+    font-size: 1.5em;
+    margin-bottom: 10px;
   }
 
-  header { 
-    flex-direction: row;
+  .red{
+    color: #FF4850;  
   }
-
-  ul { 
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0 10px;
-  }
-
-  li {
-    margin: 0 5px;
-  }
-
-  button { 
-    width: auto;
-  }
-
-  main { 
+ .content {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    height: 100%;
-    width: 45%; 
-    flex: 1;
-  }
+    border: 3px rgb(235, 212, 11) solid;
+    background: rgb(209, 235, 137);
+} 
+
+/* Media query */
+@media screen and (min-width:768px) {
+    html {
+        background: url("/images/bulldog.jpg") no-repeat center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover; 
+        font-family: 'Fira Sans', sans-serif;        
+        height: 100%;
+    }
+   
+
+    .navlist {
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
 
   .bold {
     margin: 0;

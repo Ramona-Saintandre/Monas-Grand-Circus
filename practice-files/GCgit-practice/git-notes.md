@@ -10,3 +10,5 @@ Merge conflict: to fix merge conflicts
 you will need to delete the <<<<HEAD and then ======
 Then you will do a new commit and push 
 
+git checkout -b feature/pink added 
+This is a way create a branch and check it out all at once 
